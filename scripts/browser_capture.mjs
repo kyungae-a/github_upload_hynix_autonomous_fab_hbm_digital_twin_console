@@ -22,6 +22,8 @@ const browser = await chromium.launch({
     "--disable-gpu-compositing",
     "--disable-gpu-rasterization",
     "--disable-gpu-sandbox",
+    "--no-sandbox",
+    "--disable-setuid-sandbox",
     "--disable-dev-shm-usage",
     "--allow-file-access-from-files",
   ],

@@ -66,10 +66,33 @@ def ensure_dashboard_copy() -> tuple[Path, str]:
 def browser_version(browser: str) -> str:
     try:
         profile = Path(tempfile.mkdtemp(prefix="hynix_v54_browser_version_"))
-        result = subprocess.run([browser, "--version", f"--user-data-dir={profile}"], text=True, encoding="utf-8", errors="replace", capture_output=True, timeout=20)
+        result = subprocess.run([browser, "--version", "--no-sandbox", f"--user-data-dir={profile}"], text=True, encoding="utf-8", errors="replace", capture_output=True, timeout=20)
         return (result.stdout or result.stderr or "unknown").strip()
     except Exception as exc:
         return f"unknown: {exc}"
+
+def browser_capture_commands(browser: str, profile: Path, out: Path, url: str) -> list[list[str]]:
+    common = [
+        browser,
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--allow-file-access-from-files",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--disable-background-networking",
+        "--disable-extensions",
+        "--hide-scrollbars",
+        f"--user-data-dir={profile}",
+        "--window-size=1440,1000",
+        f"--screenshot={out}",
+        url,
+    ]
+    return [
+        [common[0], "--headless=new", *common[1:]],
+        [common[0], "--headless", "--disable-gpu", *common[1:]],
+        [common[0], "--headless", "--single-process", "--disable-gpu", *common[1:]],
+    ]
 
 def capture(browser: str, route: str, out: Path) -> dict:
     html = (ROOT / "frontend" / "index.html").resolve().as_uri()
@@ -89,39 +112,21 @@ def capture(browser: str, route: str, out: Path) -> dict:
                 "stderr_preview": result.stderr[:500],
                 "capture_backend": "playwright_core",
             }
-    profile = Path(tempfile.mkdtemp(prefix="hynix_v54_browser_"))
-    cmd = [
-        browser,
-        "--headless",
-        "--disable-gpu",
-        "--disable-gpu-compositing",
-        "--disable-gpu-rasterization",
-        "--disable-gpu-sandbox",
-        "--disable-software-rasterizer",
-        "--disable-features=VizDisplayCompositor,DawnGraphite,UseSkiaRenderer",
-        "--disable-accelerated-2d-canvas",
-        "--run-all-compositor-stages-before-draw",
-        "--no-first-run",
-        "--no-default-browser-check",
-        "--disable-dev-shm-usage",
-        "--allow-file-access-from-files",
-        "--hide-scrollbars",
-        f"--user-data-dir={profile}",
-        "--window-size=1440,1000",
-        f"--screenshot={out}",
-        url,
-    ]
-    result = subprocess.run(cmd, cwd=ROOT, text=True, encoding="utf-8", errors="replace", capture_output=True, timeout=90)
-    if result.returncode != 0 or not out.exists() or out.stat().st_size < 20000:
-        raise SystemExit(f"browser screenshot failed for {route}: rc={result.returncode}\n{result.stdout}\n{result.stderr}")
-    return {
-        "route": route,
-        "url": url,
-        "command": cmd,
-        "returncode": result.returncode,
-        "stdout_preview": result.stdout[:500],
-        "stderr_preview": result.stderr[:500],
-    }
+    errors = []
+    for cmd in browser_capture_commands(browser, Path(tempfile.mkdtemp(prefix="hynix_v54_browser_")), out, url):
+        result = subprocess.run(cmd, cwd=ROOT, text=True, encoding="utf-8", errors="replace", capture_output=True, timeout=90)
+        if result.returncode == 0 and out.exists() and out.stat().st_size >= 20000:
+            return {
+                "route": route,
+                "url": url,
+                "command": cmd,
+                "returncode": result.returncode,
+                "stdout_preview": result.stdout[:500],
+                "stderr_preview": result.stderr[:500],
+                "capture_backend": "chromium_cli",
+            }
+        errors.append(f"rc={result.returncode}\n{result.stdout}\n{result.stderr}")
+    raise SystemExit(f"browser screenshot failed for {route} after {len(errors)} attempts:\n" + "\n--- retry ---\n".join(errors))
 
 def write_sidecar(path: Path, info: dict) -> None:
     sidecar = path.with_name(f"{path.name}.json")
