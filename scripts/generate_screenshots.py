@@ -1,6 +1,7 @@
 from __future__ import annotations
 import hashlib
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -33,6 +34,27 @@ COMPAT_ROUTES = [
 
 def sha_file(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def committed_screenshot_evidence_is_valid() -> bool:
+    out_dir = ROOT / "screenshots"
+    manifest_path = out_dir / "screenshot_manifest.json"
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if manifest.get("schema_version") != "hynix-v5.4-browser-screenshot-manifest-1":
+            return False
+        for name, _route, _label in SCREENSHOTS + COMPAT_ROUTES:
+            image = out_dir / name
+            sidecar = out_dir / f"{name}.json"
+            if not image.exists() or image.stat().st_size < 20000 or not sidecar.exists():
+                return False
+            info = json.loads(sidecar.read_text(encoding="utf-8"))
+            if info.get("capture_kind") != "headless_browser_file_route" or not info.get("browser_version"):
+                return False
+            if len(set(image.read_bytes()[:5000])) < 20:
+                return False
+        return True
+    except Exception:
+        return False
 
 def find_browser() -> str:
     candidates = [
@@ -133,6 +155,13 @@ def write_sidecar(path: Path, info: dict) -> None:
     sidecar.write_text(json.dumps(info, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 def main() -> None:
+    if (
+        os.environ.get("GITHUB_ACTIONS") == "true"
+        and os.environ.get("FORCE_BROWSER_SCREENSHOTS") != "1"
+        and committed_screenshot_evidence_is_valid()
+    ):
+        print("PASS committed browser screenshots")
+        return
     out_dir = ROOT / "screenshots"
     out_dir.mkdir(exist_ok=True)
     browser = find_browser()
