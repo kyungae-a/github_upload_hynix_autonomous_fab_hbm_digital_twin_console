@@ -1,0 +1,2 @@
+from v5_checks import validate_variant_engine_receipts
+validate_variant_engine_receipts()

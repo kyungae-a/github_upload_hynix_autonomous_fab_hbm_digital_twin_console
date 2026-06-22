@@ -1,0 +1,2 @@
+from v5_checks import validate_contract_lock
+validate_contract_lock()

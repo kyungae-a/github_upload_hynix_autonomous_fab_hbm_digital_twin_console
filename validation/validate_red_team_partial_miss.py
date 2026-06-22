@@ -1,0 +1,2 @@
+from v5_checks import validate_red_team_partial_miss
+validate_red_team_partial_miss()

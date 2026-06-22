@@ -1,0 +1,2 @@
+from v5_checks import validate_release_hygiene
+validate_release_hygiene()

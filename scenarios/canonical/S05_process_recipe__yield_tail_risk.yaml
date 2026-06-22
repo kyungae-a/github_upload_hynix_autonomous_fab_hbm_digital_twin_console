@@ -1,0 +1,23 @@
+{
+  "constraints": {
+    "max_tail_risk_index": 0.18,
+    "real_recipe_approval_allowed": false
+  },
+  "domain": "yield_tail",
+  "inputs": {
+    "avg_defect_delta_pct": -4.8,
+    "cycle_time_delta_pct": -3.1,
+    "edge_cluster_signal": 0.13,
+    "p99_evidence_age_h": 31,
+    "p99_sample_power": 0.42,
+    "throughput_delta_pct": 5.4
+  },
+  "question": "Did average improvement hide p99/tail risk or rare defect clustering?",
+  "scenario_id": "S05",
+  "seed": 505,
+  "title": "Process Recipe / Yield-Tail Risk",
+  "twin_scope": [
+    "fab_operation",
+    "factory_scene"
+  ]
+}

@@ -1,0 +1,2 @@
+from v5_checks import validate_metric_lineage
+validate_metric_lineage()

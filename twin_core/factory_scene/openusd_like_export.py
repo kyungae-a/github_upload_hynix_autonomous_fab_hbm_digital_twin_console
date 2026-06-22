@@ -1,0 +1,1 @@
+from twin_core.factory_scene.scene_graph import run_factory_scene

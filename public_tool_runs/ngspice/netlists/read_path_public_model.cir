@@ -1,0 +1,5 @@
+* public-model DRAM read path
+Ccell bl 0 30f
+Cbl bl 0 260f
+.tran 1p 2n
+.end

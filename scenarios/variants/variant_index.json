@@ -1,0 +1,425 @@
+{
+  "variant_count": 60,
+  "variants": [
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V001_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V001_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V002_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V002_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V003_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V003_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V004_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V004_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V005_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V005_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V006_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V006_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V007_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V007_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V008_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V008_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V009_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V009_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V010_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V010_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V011_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V011_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V012_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V012_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V013_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V013_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V014_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V014_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V015_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V015_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V016_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V016_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V017_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V017_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V018_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V018_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V019_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V019_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V020_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V020_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V021_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V021_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V022_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V022_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V023_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V023_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V024_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V024_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V025_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V025_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V026_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V026_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V027_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V027_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V028_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V028_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V029_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V029_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V030_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V030_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V031_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V031_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V032_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V032_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V033_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V033_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V034_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V034_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V035_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V035_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V036_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V036_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V037_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V037_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V038_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V038_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V039_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V039_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V040_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V040_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V041_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V041_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V042_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V042_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V043_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V043_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V044_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V044_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V045_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V045_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V046_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V046_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V047_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V047_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V048_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V048_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V049_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V049_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V050_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V050_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V051_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V051_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V052_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V052_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V053_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V053_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V054_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V054_S06"
+    },
+    {
+      "axis": "thermal",
+      "parent": "S01",
+      "path": "scenarios/variants/generated/V055_S01.json",
+      "scenario_family": "S01",
+      "variant_id": "V055_S01"
+    },
+    {
+      "axis": "retention",
+      "parent": "S02",
+      "path": "scenarios/variants/generated/V056_S02.json",
+      "scenario_family": "S02",
+      "variant_id": "V056_S02"
+    },
+    {
+      "axis": "qtime",
+      "parent": "S03",
+      "path": "scenarios/variants/generated/V057_S03.json",
+      "scenario_family": "S03",
+      "variant_id": "V057_S03"
+    },
+    {
+      "axis": "metrology",
+      "parent": "S04",
+      "path": "scenarios/variants/generated/V058_S04.json",
+      "scenario_family": "S04",
+      "variant_id": "V058_S04"
+    },
+    {
+      "axis": "tail",
+      "parent": "S05",
+      "path": "scenarios/variants/generated/V059_S05.json",
+      "scenario_family": "S05",
+      "variant_id": "V059_S05"
+    },
+    {
+      "axis": "governance",
+      "parent": "S06",
+      "path": "scenarios/variants/generated/V060_S06.json",
+      "scenario_family": "S06",
+      "variant_id": "V060_S06"
+    }
+  ]
+}

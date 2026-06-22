@@ -1,0 +1,2 @@
+from v5_checks import validate_final_v5_acceptance
+validate_final_v5_acceptance()

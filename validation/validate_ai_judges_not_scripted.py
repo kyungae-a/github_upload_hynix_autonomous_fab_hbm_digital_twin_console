@@ -1,0 +1,2 @@
+from v5_checks import validate_ai_judges_not_scripted
+validate_ai_judges_not_scripted()

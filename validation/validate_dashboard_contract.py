@@ -1,0 +1,2 @@
+from v5_checks import validate_dashboard_contract
+validate_dashboard_contract()

@@ -1,0 +1,2 @@
+from v5_checks import validate_fab_event_timeline
+validate_fab_event_timeline()

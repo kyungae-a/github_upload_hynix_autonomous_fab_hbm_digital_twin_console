@@ -1,0 +1,2 @@
+from v5_checks import validate_audit_metrics
+validate_audit_metrics()

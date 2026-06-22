@@ -1,4 +1,4 @@
 #usda 1.0
 # public-model factory scene
 # selected_route = STOCKER_A -> ETCH_1 -> METRO_1 -> STOCKER_B
-# route_cost = 9.4795 route_delay_min = 20.28139
+# route_cost = 8.7275 route_delay_min = 17.695006

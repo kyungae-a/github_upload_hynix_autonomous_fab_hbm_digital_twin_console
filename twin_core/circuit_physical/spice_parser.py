@@ -1,0 +1,1 @@
+from twin_core.circuit_physical.read_path_model import run_circuit_physical

@@ -1,0 +1,28 @@
+{
+  "canonical_parent": "S01",
+  "constraints": {
+    "min_sustained_gbps": 22000,
+    "real_signoff_required": true
+  },
+  "domain": "memory",
+  "inputs": {
+    "peak_gbps": 37939.2,
+    "power_margin_w": 1.0944,
+    "qtime_pressure": 0.285,
+    "row_locality": 0.4788,
+    "thermal_headroom_c": 8.322,
+    "traffic_gib": 9.12
+  },
+  "question": "Is the AI decision correct only inside a partial memory twin while missing thermal/power boundary conditions?",
+  "scenario_family": "S01",
+  "scenario_id": "V049_S01",
+  "seed": 1149,
+  "title": "HBM4 Thermal-Bandwidth Model Boundary",
+  "twin_scope": [
+    "memory_system",
+    "circuit_physical",
+    "factory_scene"
+  ],
+  "variant_axis": "thermal",
+  "variant_id": "V049_S01"
+}

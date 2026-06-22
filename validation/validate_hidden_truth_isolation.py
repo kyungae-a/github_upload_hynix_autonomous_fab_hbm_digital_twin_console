@@ -1,0 +1,2 @@
+from v5_checks import validate_hidden_truth_isolation
+validate_hidden_truth_isolation()

@@ -1,0 +1,2 @@
+from v5_checks import validate_no_all_mock_release
+validate_no_all_mock_release()

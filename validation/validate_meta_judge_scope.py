@@ -1,0 +1,2 @@
+from v5_checks import validate_meta_judge_scope
+validate_meta_judge_scope()

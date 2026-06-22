@@ -1,0 +1,2 @@
+from v5_checks import validate_variant_suite
+validate_variant_suite()

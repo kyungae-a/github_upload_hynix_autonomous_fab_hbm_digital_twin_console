@@ -1,0 +1,2 @@
+from v5_checks import validate_negative_fixtures
+validate_negative_fixtures()

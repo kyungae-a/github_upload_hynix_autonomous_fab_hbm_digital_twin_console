@@ -1,0 +1,425 @@
+{
+  "results": [
+    {
+      "confidence": 0.72,
+      "decision": "change_memory_policy_inside_visible_twin",
+      "packet_sha256": "914cb76f201c9abebfb3255664a065fe9a19e92b435f0d2db712e0b7ea448c4a",
+      "parent": "S01",
+      "variant_id": "V001_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "d58f1e826b2476a933b7423b9ca0ce1a9cd7664a07ebaf7070de70d04a70f019",
+      "parent": "S02",
+      "variant_id": "V002_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "48c6659f3fac84be3df2ba95056a1fbaf15a87de9cd240efd0da620ff60af4be",
+      "parent": "S03",
+      "variant_id": "V003_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "d89cc670a4b7197bfc83b0814716d850fdb7249762a96103daaf32b42ee2e2b3",
+      "parent": "S04",
+      "variant_id": "V004_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "hold_for_tail_risk_evidence",
+      "packet_sha256": "a79c5dc71cf0d79f74ea6d717123884708c4fe89cfd7794fc57211a79c409b71",
+      "parent": "S05",
+      "variant_id": "V005_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "4e9455112a612c226fb1d4b4b9e6b05bce5abb3d014cc7df5310608a229165e4",
+      "parent": "S06",
+      "variant_id": "V006_S06"
+    },
+    {
+      "confidence": 0.54,
+      "decision": "request_thermal_boundary_evidence",
+      "packet_sha256": "dd2b70ffc56c2d87c7823c9379db153958248d18e0a0b897a5e616b439e58bb6",
+      "parent": "S01",
+      "variant_id": "V007_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "8c4e4efb38628740b8a9f41dc40e5768c8b527024d0e38e7807a3d2205f27e4f",
+      "parent": "S02",
+      "variant_id": "V008_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "d6674226c28ccd5d36364c3094e01903f22d60ea357bfb15fe4e1eabee36ff72",
+      "parent": "S03",
+      "variant_id": "V009_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "b9db861de21a2ea18c0c09283b8648ff175c795c23b4faaabba88ad97f88ba70",
+      "parent": "S04",
+      "variant_id": "V010_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "bounded_recipe_pilot",
+      "packet_sha256": "c0f083c5a7ccdc97704053d43cf598e7bef7d8a1edf10f65a25a622b5303f0c0",
+      "parent": "S05",
+      "variant_id": "V011_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "e50ddf548f5cf2f4dc1a58bbf5372b134381e8a6dc8c57a61f9ed657bd6adb36",
+      "parent": "S06",
+      "variant_id": "V012_S06"
+    },
+    {
+      "confidence": 0.72,
+      "decision": "change_memory_policy_inside_visible_twin",
+      "packet_sha256": "6821e63aaf0c8165bf25dd736db4fb9d06200238e8775620ce035f95df09c635",
+      "parent": "S01",
+      "variant_id": "V013_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "0ad7bcf840bf7e286238d813a1dc93bccbc1552b70492d4745f8bf50d2c891f3",
+      "parent": "S02",
+      "variant_id": "V014_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "b1b7c01e9df13b97b830bdf09ee5692f6ade681d71fb94f1c7df1203c5f6c08c",
+      "parent": "S03",
+      "variant_id": "V015_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "cb18d8fddf52671ee9c1235134ca411651ba560f7ec896e11450b75abd1315ba",
+      "parent": "S04",
+      "variant_id": "V016_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "hold_for_tail_risk_evidence",
+      "packet_sha256": "8325f14f4d4b709448690ad103a5a6a7f6605104e756aec1c598572d64312e0a",
+      "parent": "S05",
+      "variant_id": "V017_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "1e813d56b108a64f78fa0272062a2c7f6e4fa5d9022961385530d5c9aee3df25",
+      "parent": "S06",
+      "variant_id": "V018_S06"
+    },
+    {
+      "confidence": 0.54,
+      "decision": "request_thermal_boundary_evidence",
+      "packet_sha256": "58a157956c742a1b641b8bbd4edb29334ddfba0d93e67b01516256c831d62ade",
+      "parent": "S01",
+      "variant_id": "V019_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "2c7471dcf4f5e8bf35facd5b5fc9bd207f7a65d9f6c2ee9ab25627fd8cea584c",
+      "parent": "S02",
+      "variant_id": "V020_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "b57b1dfe41439f809b69c3560eaaaa3cb9d7ec0edd72750d8eff96ce2384dc6a",
+      "parent": "S03",
+      "variant_id": "V021_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "d60bd8c22744a55bcc940d9e23b37879d86cefaa2f1af369b4775aeec02ef62a",
+      "parent": "S04",
+      "variant_id": "V022_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "bounded_recipe_pilot",
+      "packet_sha256": "b8fe27f0165fcc15ec4bdbc64754fa52d806d0a6a991920176ade6295c37577c",
+      "parent": "S05",
+      "variant_id": "V023_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "2e1de1078fd78f994d6c9f5157662bfe30a7e22b41a9484079e470024cef6038",
+      "parent": "S06",
+      "variant_id": "V024_S06"
+    },
+    {
+      "confidence": 0.54,
+      "decision": "request_thermal_boundary_evidence",
+      "packet_sha256": "0833e6bc944abcb7404422ba9281e2545a1218e4f169789f58b668836edeaafb",
+      "parent": "S01",
+      "variant_id": "V025_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "34292752ada7471e1faabbe53319a273c10a6d72e7eb7f273561a0bd91a1b393",
+      "parent": "S02",
+      "variant_id": "V026_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "a1f6084064a7a25caeb68f2e7a8c733ee4cc388dc99bcc586ada46511fc1cda0",
+      "parent": "S03",
+      "variant_id": "V027_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "546df09424e6ef1666a44e477ea01220f9a1c5ff02deb6b63843c8a636fe9c65",
+      "parent": "S04",
+      "variant_id": "V028_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "hold_for_tail_risk_evidence",
+      "packet_sha256": "eef9b4a9587464415cd8e228f15fe55fdfd1155e1fe7545774206744f0109e8c",
+      "parent": "S05",
+      "variant_id": "V029_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "21625d0c9880b6aa60050c2603c806739ab263ebd30f38642f696124f9653b62",
+      "parent": "S06",
+      "variant_id": "V030_S06"
+    },
+    {
+      "confidence": 0.72,
+      "decision": "change_memory_policy_inside_visible_twin",
+      "packet_sha256": "515b2a6b117e485365033c73d444529f8785fcc0f7845dfc4eb3f49bc4f1f5f0",
+      "parent": "S01",
+      "variant_id": "V031_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "855ab486a78b496fe6095df716e501ac371908c31d484258031a7d7dec60f0d0",
+      "parent": "S02",
+      "variant_id": "V032_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "20d41f75d47555beede0c16dd25e233bbefa59a606d3c1a08fdc08d94d1b2360",
+      "parent": "S03",
+      "variant_id": "V033_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "dfc2afed10bb5dafa4c6f6f96ee6bdc1055a5b295d7792604481a40a60f5443a",
+      "parent": "S04",
+      "variant_id": "V034_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "hold_for_tail_risk_evidence",
+      "packet_sha256": "8e521625453226859f996973bd9d745edc886228e3db1434ff447b35b1442162",
+      "parent": "S05",
+      "variant_id": "V035_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "d515007a73cecdc734bef7103d83f411b5d26b5b8716c427f4f2c1452fceb46a",
+      "parent": "S06",
+      "variant_id": "V036_S06"
+    },
+    {
+      "confidence": 0.54,
+      "decision": "request_thermal_boundary_evidence",
+      "packet_sha256": "e0b5b05afe704cae2a2a66b712051fea6b9a3e94a4b6c7323cbac19fb4c1e738",
+      "parent": "S01",
+      "variant_id": "V037_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "1b5394e697ee933507f35d1909e059a8891ab93224ed3562231ad73074e4b7a7",
+      "parent": "S02",
+      "variant_id": "V038_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "4a78648aef9dd82406ba29eb904d4aaf2b3733a69ee3f992fa84ce86ea8f7f5a",
+      "parent": "S03",
+      "variant_id": "V039_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "511c1562b7149acfa9fde21f51d065d4253756210434cb1df8f4ca2f5f53d232",
+      "parent": "S04",
+      "variant_id": "V040_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "bounded_recipe_pilot",
+      "packet_sha256": "25ec6da48827feff3e50a02396cd6f80de178893bf910f9cb783c3c799220704",
+      "parent": "S05",
+      "variant_id": "V041_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "2a8c4241e7fadde0aa0174018ab9746c5ebcb21cb181fc693bb11cfba7dd9729",
+      "parent": "S06",
+      "variant_id": "V042_S06"
+    },
+    {
+      "confidence": 0.72,
+      "decision": "change_memory_policy_inside_visible_twin",
+      "packet_sha256": "05dd49f7c39a4dfa61327fdea4078de68b87ca31d040ed240ce4f64dcd4b91d9",
+      "parent": "S01",
+      "variant_id": "V043_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "b602b77338c28c98cef8234024146fd96866f60b8b26d2ed67616ab5fe955dcd",
+      "parent": "S02",
+      "variant_id": "V044_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "817d321497909ec226288015fe124839d9a59d9d5d3fdccafd83c1a46497474b",
+      "parent": "S03",
+      "variant_id": "V045_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "9d93304fad0b75b4bc6c050f98c51a366b5ecad5330b9d0061014a580c0d4569",
+      "parent": "S04",
+      "variant_id": "V046_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "hold_for_tail_risk_evidence",
+      "packet_sha256": "4bcf1c8ea3c58a5ab9bc4bee808d230a25cccbec5dbed85b6679262f5bffd222",
+      "parent": "S05",
+      "variant_id": "V047_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "009509c627751beaa1f651ac2d0e4f5429ba80c39d81d97ce0cd5cb7f43cfb9f",
+      "parent": "S06",
+      "variant_id": "V048_S06"
+    },
+    {
+      "confidence": 0.54,
+      "decision": "request_thermal_boundary_evidence",
+      "packet_sha256": "4d8c78d642d4926c61bc530c57b9a027c8474eb756fb7c567384ae80c6ff2a04",
+      "parent": "S01",
+      "variant_id": "V049_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "b2c00fb2ae7b436ad8df27474bfad589b4235e0580832c706caa577677eaae01",
+      "parent": "S02",
+      "variant_id": "V050_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "26945817841152981bd9c5cf6f1eaf2cc8308e81a238aa33dac1e5a62f40f605",
+      "parent": "S03",
+      "variant_id": "V051_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "0978d5e50b862ad517a50d23c9688d3ac6f763d0091714e5e4e3045a2b397820",
+      "parent": "S04",
+      "variant_id": "V052_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "bounded_recipe_pilot",
+      "packet_sha256": "721fe7d9e74b3d70462444c44583a4a0007ba52b067a2b3690e1202113c5df9e",
+      "parent": "S05",
+      "variant_id": "V053_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "4c41b8aad1a01fff0491f3983a525a528912f416472c8ffd2432d5f716349354",
+      "parent": "S06",
+      "variant_id": "V054_S06"
+    },
+    {
+      "confidence": 0.54,
+      "decision": "request_thermal_boundary_evidence",
+      "packet_sha256": "46f352901afd22bcd15071e1d748ea83c5062b00713b7d1ae80853ad899289f2",
+      "parent": "S01",
+      "variant_id": "V055_S01"
+    },
+    {
+      "confidence": 0.76,
+      "decision": "select_candidate_a",
+      "packet_sha256": "33bd8cf91cd265854b2355fa1647a5d24916b9ce33477ff1c9576a1abfe74731",
+      "parent": "S02",
+      "variant_id": "V056_S02"
+    },
+    {
+      "confidence": 0.69,
+      "decision": "protect_lot_a_qtime_or_request_global_flow",
+      "packet_sha256": "244ef9af405408732313fa558e48235ce9118b116630b007dcd8c3cb3aff2c93",
+      "parent": "S03",
+      "variant_id": "V057_S03"
+    },
+    {
+      "confidence": 0.63,
+      "decision": "continue_with_monitoring",
+      "packet_sha256": "018735d9f73d16b3ade9374d59aefe1e7ee77cfdea02a309328b4f5de3805e3a",
+      "parent": "S04",
+      "variant_id": "V058_S04"
+    },
+    {
+      "confidence": 0.66,
+      "decision": "hold_for_tail_risk_evidence",
+      "packet_sha256": "0745e49965b23ece514bd18098c3835fff8d8b79ec3b4a0bde89feb17cd4dcb2",
+      "parent": "S05",
+      "variant_id": "V059_S05"
+    },
+    {
+      "confidence": 0.61,
+      "decision": "claim_proxy_evidence_only",
+      "packet_sha256": "517fac53c379fd14c95b1a5fa8ffb3df89aa4c09015f86ad8927bd99124d3f83",
+      "parent": "S06",
+      "variant_id": "V060_S06"
+    }
+  ],
+  "variant_count": 60
+}

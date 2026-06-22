@@ -1,0 +1,2 @@
+from v5_checks import validate_real_run_counts
+validate_real_run_counts()

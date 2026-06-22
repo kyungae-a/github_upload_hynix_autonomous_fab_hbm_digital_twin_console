@@ -1,0 +1,27 @@
+{
+  "canonical_parent": "S03",
+  "constraints": {
+    "qtime_limit_min": 240,
+    "real_production_control_allowed": false
+  },
+  "domain": "fab_dispatch",
+  "inputs": {
+    "lot_a_qtime_min": 145.96,
+    "lot_b_priority": 0.7626,
+    "process_min": 47.56,
+    "route_congestion": 0.3608,
+    "tool_window_min": 27.88,
+    "transport_min": 13.12
+  },
+  "question": "Did local dispatch optimization harm global fab flow or downstream Q-time trajectory?",
+  "scenario_family": "S03",
+  "scenario_id": "V021_S03",
+  "seed": 1323,
+  "title": "Fab Dispatch / Q-Time Global Flow",
+  "twin_scope": [
+    "fab_operation",
+    "factory_scene"
+  ],
+  "variant_axis": "qtime",
+  "variant_id": "V021_S03"
+}

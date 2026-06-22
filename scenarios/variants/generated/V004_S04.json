@@ -1,0 +1,28 @@
+{
+  "canonical_parent": "S04",
+  "constraints": {
+    "max_metrology_delay_min": 120,
+    "real_maintenance_approval_allowed": false
+  },
+  "domain": "observability",
+  "inputs": {
+    "alarm_rate": 0.0376,
+    "health_score": 0.8084,
+    "metrology_delay_min": 157.92,
+    "process_min": 48.88,
+    "sensor_drift_ppm": 16.92,
+    "sensor_stability": 0.8554
+  },
+  "question": "Are sensor/tool logs and metrology data reliable and timely enough for AI to judge physical state?",
+  "scenario_family": "S04",
+  "scenario_id": "V004_S04",
+  "seed": 1407,
+  "title": "Tool-Chamber Observability / Metrology Lag",
+  "twin_scope": [
+    "fab_operation",
+    "circuit_physical",
+    "factory_scene"
+  ],
+  "variant_axis": "metrology",
+  "variant_id": "V004_S04"
+}

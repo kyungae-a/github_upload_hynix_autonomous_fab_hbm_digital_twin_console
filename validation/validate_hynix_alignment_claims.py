@@ -1,0 +1,2 @@
+from v5_checks import validate_hynix_alignment_claims
+validate_hynix_alignment_claims()

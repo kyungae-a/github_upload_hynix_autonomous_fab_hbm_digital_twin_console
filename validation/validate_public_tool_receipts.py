@@ -1,0 +1,2 @@
+from v5_checks import validate_public_tool_receipts
+validate_public_tool_receipts()

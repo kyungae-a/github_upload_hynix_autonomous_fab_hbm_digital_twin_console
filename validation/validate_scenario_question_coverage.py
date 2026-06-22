@@ -1,0 +1,2 @@
+from v5_checks import validate_scenario_question_coverage
+validate_scenario_question_coverage()

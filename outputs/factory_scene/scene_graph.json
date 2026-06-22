@@ -7,7 +7,7 @@
       ],
       "radius": 0.85,
       "reason": "metrology queue pressure",
-      "severity": 0.55775,
+      "severity": 0.37375,
       "zone_id": "Z_METRO"
     },
     {
@@ -17,72 +17,72 @@
       ],
       "radius": 0.75,
       "reason": "shared stocker to etch transport edge",
-      "severity": 0.4074,
+      "severity": 0.273,
       "zone_id": "Z_ETCH_BUFFER"
     }
   ],
   "edges": [
     {
-      "cost": 3.485,
+      "cost": 3.325,
       "from": "STOCKER_A",
       "to": "ETCH_1"
     },
     {
-      "cost": 2.97,
+      "cost": 2.65,
       "from": "ETCH_1",
       "to": "METRO_1"
     },
     {
-      "cost": 4.179,
+      "cost": 3.955,
       "from": "ETCH_1",
       "to": "CVD_1"
     },
     {
-      "cost": 3.285,
+      "cost": 3.125,
       "from": "CVD_1",
       "to": "STOCKER_B"
     },
     {
-      "cost": 3.0245,
+      "cost": 2.7525,
       "from": "METRO_1",
       "to": "STOCKER_B"
     }
   ],
   "heatmap": [
     [
-      0.485,
-      0.97,
-      1.455,
-      1.94,
-      2.425
+      0.325,
+      0.65,
+      0.975,
+      1.3,
+      1.625
     ],
     [
-      0.97,
-      1.455,
-      1.94,
-      2.425,
-      2.91
+      0.65,
+      0.975,
+      1.3,
+      1.625,
+      1.95
     ],
     [
-      1.455,
-      1.94,
-      2.425,
-      2.91,
-      3.395
+      0.975,
+      1.3,
+      1.625,
+      1.95,
+      2.275
     ],
     [
-      1.94,
-      2.425,
-      2.91,
-      3.395,
-      3.88
+      1.3,
+      1.625,
+      1.95,
+      2.275,
+      2.6
     ],
     [
-      2.425,
-      2.91,
-      3.395,
-      3.88,
-      4.365
+      1.625,
+      1.95,
+      2.275,
+      2.6,
+      2.925
     ]
   ],
   "nodes": [
@@ -127,12 +127,12 @@
       ]
     }
   ],
-  "route_cost": 9.4795,
-  "route_delay_min": 20.28139,
+  "route_cost": 8.7275,
+  "route_delay_min": 17.695006,
   "route_segments": [
     {
-      "cost": 3.485,
-      "delay_min": 7.456157,
+      "cost": 3.325,
+      "delay_min": 6.741437,
       "from": "STOCKER_A",
       "from_xy": [
         0,
@@ -146,8 +146,8 @@
       ]
     },
     {
-      "cost": 2.97,
-      "delay_min": 6.354315,
+      "cost": 2.65,
+      "delay_min": 5.372875,
       "from": "ETCH_1",
       "from_xy": [
         2,
@@ -161,8 +161,8 @@
       ]
     },
     {
-      "cost": 3.0245,
-      "delay_min": 6.470918,
+      "cost": 2.7525,
+      "delay_min": 5.580694,
       "from": "METRO_1",
       "from_xy": [
         4,

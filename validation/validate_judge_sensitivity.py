@@ -1,0 +1,2 @@
+from v5_checks import validate_judge_sensitivity
+validate_judge_sensitivity()

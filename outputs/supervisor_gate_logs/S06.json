@@ -1,0 +1,11 @@
+{
+  "approved_claim": "public-model portfolio evidence only",
+  "blocked_claim": "real fab/product/signoff approval",
+  "canonical_parent": "S06",
+  "disposition": "REWORD_AS_PROXY_ONLY",
+  "human_impersonation": false,
+  "requires_real_signoff": true,
+  "scenario_family": "S06",
+  "scenario_id": "S06",
+  "schema_version": "hynix-v5-supervisor-1"
+}

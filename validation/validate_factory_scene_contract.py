@@ -1,0 +1,2 @@
+from v5_checks import validate_factory_scene_contract
+validate_factory_scene_contract()

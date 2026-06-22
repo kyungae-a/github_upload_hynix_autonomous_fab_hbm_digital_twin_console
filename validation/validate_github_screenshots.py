@@ -1,0 +1,2 @@
+from v5_checks import validate_github_screenshots
+validate_github_screenshots()

@@ -1,0 +1,37 @@
+{
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "browser_version": "unknown: Command '['C:\\\\Program Files (x86)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe', '--version', '--user-data-dir=C:\\\\Users\\\\qkswk\\\\AppData\\\\Local\\\\Temp\\\\hynix_v54_browser_version_du4s162e']' timed out after 20 seconds",
+  "capture_backend": "playwright_core",
+  "capture_kind": "headless_browser_file_route",
+  "command": [
+    "C:\\Program Files\\nodejs\\node.EXE",
+    "C:\\Users\\qkswk\\Documents\\New project6\\hynix_public_model_semiconductor_decision_twin\\scripts\\browser_capture.mjs",
+    "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "file:///C:/Users/qkswk/Documents/New%20project6/hynix_public_model_semiconductor_decision_twin/frontend/index.html#overview",
+    "C:\\Users\\qkswk\\Documents\\New project6\\hynix_public_model_semiconductor_decision_twin\\screenshots\\01_architecture.png",
+    "C:\\Users\\qkswk\\Documents\\New project6\\hynix_public_model_semiconductor_decision_twin"
+  ],
+  "dashboard_data_path": "frontend/dashboard_data.json",
+  "dashboard_sha256": "97a9ddb14c9723f125ef5d50eb67b398e83352ff358b43d5a3b8263874726837",
+  "label": "Architecture / overview console",
+  "png_sha256": "d5a16a616762bceeb1b1ac4ea0a4e15404f378beacb4a98ba081eecb30fe364e",
+  "returncode": 0,
+  "route": "overview",
+  "screenshot": "screenshots/01_architecture.png",
+  "stderr_preview": "",
+  "stdout_preview": "{\"status\":\"PASS\",\"url\":\"file:///C:/Users/qkswk/Documents/New%20project6/hynix_public_model_semiconductor_decision_twin/frontend/index.html#overview\",\"outPath\":\"C:\\\\Users\\\\qkswk\\\\Documents\\\\New project6\\\\hynix_public_model_semiconductor_decision_twin\\\\screenshots\\\\01_architecture.png\"}\n",
+  "url": "file:///C:/Users/qkswk/Documents/New%20project6/hynix_public_model_semiconductor_decision_twin/frontend/index.html#overview",
+  "viewport": "1440x1000",
+  "visible_labels": [
+    "MetricCard",
+    "StatusBadge",
+    "LineChart",
+    "BarChart",
+    "Timeline",
+    "RouteMap",
+    "EvidenceTable",
+    "DecisionFlow",
+    "ReceiptPanel",
+    "VariantMatrix"
+  ]
+}
