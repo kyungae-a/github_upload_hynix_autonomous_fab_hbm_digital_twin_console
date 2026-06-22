@@ -1,0 +1,11 @@
+{
+  "canonical_parent": "S01",
+  "challenge": "No reliable model-age signal is visible; this escapes until reveal.",
+  "challenge_emitted": false,
+  "challenge_type": "thermal_boundary_not_visible",
+  "scenario_family": "S01",
+  "scenario_id": "S01",
+  "schema_version": "hynix-v5-red-team-1",
+  "target_decision": "S01-JDG-001",
+  "visible_only": true
+}

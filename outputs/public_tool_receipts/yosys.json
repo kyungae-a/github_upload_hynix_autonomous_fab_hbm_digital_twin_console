@@ -1,0 +1,33 @@
+{
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "yosys",
+    "-p",
+    "read_verilog public_tool_runs/rtl/rtl/hbm_policy_controller.v; synth; stat"
+  ],
+  "environment": "current-subprocess-attempt",
+  "executable": "yosys",
+  "executable_path": null,
+  "exit_status": 0,
+  "input_sha256": "372588e4e07e789879c5d1b8b1e605a37c65577a627e59759e40058d8e04a6a2",
+  "log_path": "outputs/public_tool_receipts/yosys_attempt.log",
+  "log_sha256": "3a959227a2a194f0a8475cf095a2ee603960b523de73c887bde2157439f115a8",
+  "parsed_metrics_path": "outputs/public_tool_receipts/yosys_parsed.json",
+  "parsed_output_path": "outputs/public_tool_receipts/yosys_parsed.json",
+  "parsed_output_sha256": "e55c6f70f965e3a6fbec08f83f0838462ef7edb30a570e56b05ef2ed8cba91cb",
+  "parser_status": "EXPLAINED",
+  "raw_output_path": "outputs/public_tool_receipts/yosys_raw.json",
+  "raw_output_sha256": "400236fd5bf9ae1d52c3fac383cdfd88f87d8176205e578504eb3ec6f0e5cf3b",
+  "reason": "yosys executable unavailable",
+  "relative_cwd": ".",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_path": "outputs/public_tool_receipts/yosys_stderr.txt",
+  "stderr_sha256": "b398e32763603038d98a0a12fc2fbc3a32d614b54e6692486dcdcf5f1697c755",
+  "stdout_path": "outputs/public_tool_receipts/yosys_stdout.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tool": "yosys"
+}

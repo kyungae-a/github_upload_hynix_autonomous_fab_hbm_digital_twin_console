@@ -1,0 +1,13 @@
+{
+  "charge_share_delta_v_mv": 103.448276,
+  "domain": "circuit_physical",
+  "external_report_word": "PUBLIC_PROXY_REPORT",
+  "proxy_design_pass": true,
+  "proxy_execution_pass": true,
+  "real_signoff_claim_allowed": false,
+  "retention_ms": 256.0,
+  "sense_margin_mv": 43.248276,
+  "sense_margin_p05_mv": 39.468276,
+  "tns_ns": 0,
+  "wns_ns": 0.04
+}

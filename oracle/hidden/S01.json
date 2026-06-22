@@ -1,0 +1,5 @@
+{
+  "failure_mode": "stale thermal coupling makes the apparent scheduler win throttle under sustained pressure",
+  "label": "ESCAPED_UNTIL_HIDDEN_TRUTH",
+  "scenario_id": "S01"
+}

@@ -1,0 +1,22 @@
+{
+  "attempted": true,
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "ngspice",
+    "-b",
+    "public_tool_runs/ngspice/netlists/read_path_charge_sharing.sp",
+    "-o",
+    "outputs/public_tool_receipts/ngspice_native.log"
+  ],
+  "executable_path": null,
+  "log_path": "outputs/public_tool_receipts/ngspice_attempt.log",
+  "reason": "ngspice executable unavailable",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_path": "outputs/public_tool_receipts/ngspice_stderr.txt",
+  "stdout_path": "outputs/public_tool_receipts/ngspice_stdout.txt",
+  "tool": "ngspice"
+}

@@ -1,0 +1,4 @@
+services:
+  decision-twin:
+    build: .
+    command: make demo-light

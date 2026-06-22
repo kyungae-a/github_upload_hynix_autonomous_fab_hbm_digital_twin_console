@@ -1,0 +1,497 @@
+{
+  "avg_defect_delta_pct": -5.088,
+  "dispatch_markers": [
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_A",
+      "time_min": 0.0,
+      "tool_id": "TOOL_0"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_B",
+      "time_min": 17.0,
+      "tool_id": "TOOL_1"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_B",
+      "time_min": 51.5,
+      "tool_id": "TOOL_0"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_B",
+      "time_min": 73.5,
+      "tool_id": "TOOL_1"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_A",
+      "time_min": 105.5,
+      "tool_id": "TOOL_0"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_B",
+      "time_min": 122.0,
+      "tool_id": "TOOL_1"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_B",
+      "time_min": 159.0,
+      "tool_id": "TOOL_0"
+    },
+    {
+      "event": "dispatch",
+      "lot_id": "LOT_B",
+      "time_min": 171.5,
+      "tool_id": "TOOL_1"
+    }
+  ],
+  "domain": "fab_operation",
+  "events": [
+    {
+      "event": "ARRIVE",
+      "lot": "A",
+      "time": 0.0
+    },
+    {
+      "event": "START",
+      "lot": "A",
+      "time": 0.0,
+      "tool": 0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 17.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 17.0,
+      "tool": 1
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 34.0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 51.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 51.5,
+      "tool": 0
+    },
+    {
+      "event": "END",
+      "lot": "A",
+      "time": 53.0,
+      "tool": 0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "A",
+      "time": 68.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 73.5,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 75.0,
+      "tool": 1
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 85.0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 102.0
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 105.5,
+      "tool": 0
+    },
+    {
+      "event": "START",
+      "lot": "A",
+      "time": 105.5,
+      "tool": 0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 119.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 122.0,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 123.5,
+      "tool": 1
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "A",
+      "time": 136.0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 153.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 159.0,
+      "tool": 0
+    },
+    {
+      "event": "END",
+      "lot": "A",
+      "time": 160.5,
+      "tool": 0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 170.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 171.5,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 173.0,
+      "tool": 1
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 187.0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "A",
+      "time": 204.0
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 215.0,
+      "tool": 0
+    },
+    {
+      "event": "START",
+      "lot": "A",
+      "time": 215.0,
+      "tool": 0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 221.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 222.0,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 223.5,
+      "tool": 1
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 238.0
+    },
+    {
+      "event": "ARRIVE",
+      "lot": "B",
+      "time": 255.0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 270.5,
+      "tool": 0
+    },
+    {
+      "event": "END",
+      "lot": "A",
+      "time": 272.0,
+      "tool": 0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 273.5,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 275.0,
+      "tool": 1
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 327.0,
+      "tool": 0
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 327.5,
+      "tool": 1
+    },
+    {
+      "event": "START",
+      "lot": "A",
+      "time": 327.5,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 328.5,
+      "tool": 0
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 376.0,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "A",
+      "time": 377.5,
+      "tool": 1
+    },
+    {
+      "event": "START",
+      "lot": "B",
+      "time": 380.5,
+      "tool": 0
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 382.0,
+      "tool": 0
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 427.0,
+      "tool": 1
+    },
+    {
+      "event": "END",
+      "lot": "B",
+      "time": 436.5,
+      "tool": 0
+    }
+  ],
+  "local_dispatch_score": 0.405,
+  "lot_a_max_qtime_min": 431.5,
+  "lot_qtime_trajectories": [
+    {
+      "lot_id": "LOT_A",
+      "points": [
+        {
+          "lot_id": "LOT_A",
+          "qtime_remaining_min": 136.0,
+          "qtime_used_min": 104.0,
+          "time_min": 0.0,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_A",
+          "qtime_remaining_min": 30.5,
+          "qtime_used_min": 209.5,
+          "time_min": 105.5,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_A",
+          "qtime_remaining_min": 0.0,
+          "qtime_used_min": 319.0,
+          "time_min": 215.0,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_A",
+          "qtime_remaining_min": 0.0,
+          "qtime_used_min": 431.5,
+          "time_min": 327.5,
+          "tool_id": "TOOL_1"
+        }
+      ]
+    },
+    {
+      "lot_id": "LOT_B",
+      "points": [
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 234.05,
+          "qtime_used_min": 5.95,
+          "time_min": 17.0,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 221.975,
+          "qtime_used_min": 18.025,
+          "time_min": 51.5,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 214.275,
+          "qtime_used_min": 25.725,
+          "time_min": 73.5,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 197.3,
+          "qtime_used_min": 42.7,
+          "time_min": 122.0,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 184.35,
+          "qtime_used_min": 55.65,
+          "time_min": 159.0,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 179.975,
+          "qtime_used_min": 60.025,
+          "time_min": 171.5,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 162.3,
+          "qtime_used_min": 77.7,
+          "time_min": 222.0,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 145.325,
+          "qtime_used_min": 94.675,
+          "time_min": 270.5,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 144.275,
+          "qtime_used_min": 95.725,
+          "time_min": 273.5,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 125.55,
+          "qtime_used_min": 114.45,
+          "time_min": 327.0,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 108.4,
+          "qtime_used_min": 131.6,
+          "time_min": 376.0,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "lot_id": "LOT_B",
+          "qtime_remaining_min": 106.825,
+          "qtime_used_min": 133.175,
+          "time_min": 380.5,
+          "tool_id": "TOOL_0"
+        }
+      ]
+    }
+  ],
+  "lots_processed": 16,
+  "metrology_delay_markers": [
+    {
+      "delay_min": 90.0,
+      "lot_id": "LOT_A",
+      "time_min": 143.0
+    },
+    {
+      "delay_min": 90.0,
+      "lot_id": "LOT_A",
+      "time_min": 250.5
+    },
+    {
+      "delay_min": 90.0,
+      "lot_id": "LOT_A",
+      "time_min": 362.0
+    },
+    {
+      "delay_min": 90.0,
+      "lot_id": "LOT_A",
+      "time_min": 467.5
+    }
+  ],
+  "metrology_delay_min": 90.0,
+  "observability_risk_index": 0.0,
+  "q_over_threshold": [
+    {
+      "limit_min": 240.0,
+      "lot_id": "LOT_A",
+      "qtime_min": 319.0,
+      "time_min": 215.0
+    },
+    {
+      "limit_min": 240.0,
+      "lot_id": "LOT_A",
+      "qtime_min": 431.5,
+      "time_min": 327.5
+    }
+  ],
+  "qtime_risk_index": 2.235,
+  "tail_risk_index": 0.389262,
+  "throughput_delta_pct": 5.724,
+  "tool_utilization": 0.247136
+}

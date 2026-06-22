@@ -1,0 +1,187 @@
+{
+  "baseline_archive_sha256": "0979456db809d195bcf4f66739c973ff7f47ee4374f71d0c6b533647ca1c177c",
+  "ci_medium_evidence": {
+    "commit_sha": "",
+    "github_run_url": "",
+    "manifest_path": "outputs/public_tool_evidence/ci_run_manifest.json",
+    "status": "PENDING",
+    "tools": {
+      "ngspice": "NOT_PRESENT_IN_LOCAL_ARTIFACT",
+      "simpy": "NOT_PRESENT_IN_LOCAL_ARTIFACT",
+      "verilator": "NOT_PRESENT_IN_LOCAL_ARTIFACT",
+      "yosys": "NOT_PRESENT_IN_LOCAL_ARTIFACT"
+    },
+    "workflow": "medium"
+  },
+  "current_phase": "P11",
+  "final_gates": {
+    "dashboard": "PASS",
+    "demo-heavy": "PASS",
+    "demo-light": "PENDING",
+    "demo-medium": "PENDING",
+    "github_medium_workflow": "PENDING",
+    "package-release": "PENDING",
+    "run-canonical": "PASS",
+    "run-public-tools": "PASS",
+    "run-variants": "PASS",
+    "screenshots": "PENDING",
+    "setup-light": "PENDING",
+    "setup-medium": "PENDING",
+    "test": "PENDING",
+    "validate": "PENDING",
+    "validate-medium": "PENDING",
+    "verify": "PENDING",
+    "verify-clean-unzip": "PENDING"
+  },
+  "final_reviewers": {
+    "ci_evidence_integrity_review": "PENDING",
+    "product_visual_review": "PASS",
+    "release_reproducibility_review": "PASS",
+    "semiconductor_semantics_review": "PASS"
+  },
+  "legacy_v5_3_ready_trusted_for_v5_4": false,
+  "phases": {
+    "P00": {
+      "gate_receipts": [
+        "outputs/build_receipts/P00/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P00/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Baseline integrity, in-place upgrade boundary, and authority reset"
+    },
+    "P01": {
+      "gate_receipts": [
+        "outputs/build_receipts/P01/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P01/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "v5.4 product data contract, dashboard lifecycle, and current-run provenance"
+    },
+    "P02": {
+      "gate_receipts": [
+        "outputs/build_receipts/P02/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P02/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "HBM bandwidth unit normalization and policy-comparison product page"
+    },
+    "P03": {
+      "gate_receipts": [
+        "outputs/build_receipts/P03/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P03/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Factory raw graph, congestion-aware routing, OpenUSD-like export, and route map"
+    },
+    "P04": {
+      "gate_receipts": [
+        "outputs/build_receipts/P04/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P04/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Fab Q-time timeline fidelity, dual-LOT trajectories, and event markers"
+    },
+    "P05": {
+      "gate_receipts": [
+        "outputs/build_receipts/P05/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P05/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "GitHub Actions medium public-tool execution and CI evidence manifest"
+    },
+    "P06": {
+      "gate_receipts": [
+        "outputs/build_receipts/P06/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P06/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Nine-page evidence explorer integration and local/CI evidence separation"
+    },
+    "P07": {
+      "gate_receipts": [
+        "outputs/build_receipts/P07/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P07/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Browser screenshot visual contract and source-linked capture evidence"
+    },
+    "P08": {
+      "gate_receipts": [
+        "outputs/build_receipts/P08/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P08/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Reviewer-grade product documentation and claim-to-evidence mapping"
+    },
+    "P09": {
+      "gate_receipts": [
+        "outputs/build_receipts/P09/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P09/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Semantic validators and deliberate negative regression fixtures"
+    },
+    "P10": {
+      "gate_receipts": [
+        "outputs/build_receipts/P10/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P10/reviewer_receipt.json"
+      ],
+      "status": "PASS",
+      "title": "Local final transaction, deterministic release candidate, and clean-unzip verification"
+    },
+    "P11": {
+      "gate_receipts": [
+        "outputs/build_receipts/P11/writer_receipt.json"
+      ],
+      "open_p0_p1": 0,
+      "review_receipts": [
+        "outputs/build_receipts/P11/reviewer_receipt.json"
+      ],
+      "status": "PENDING",
+      "title": "Genuine GitHub medium evidence finalization and independent product red team"
+    }
+  },
+  "product_root": ".",
+  "release": {
+    "archive_path": "release/hynix-autonomous-fab-hbm-digital-twin-console.zip",
+    "archive_sha256": "",
+    "manifest_schema_version": "hynix-v5.4-release-manifest-1",
+    "sidecar_manifest_path": "release/hynix-autonomous-fab-hbm-digital-twin-console.release_manifest.json"
+  },
+  "schema_version": "hynix-v5.4-build-state-1",
+  "source_directive_sha256": "eceb397237971df0faa33d6edf3b3211ed9700317d18a209b20a6d415fcd2e89",
+  "status": "AWAITING_GITHUB_MEDIUM"
+}

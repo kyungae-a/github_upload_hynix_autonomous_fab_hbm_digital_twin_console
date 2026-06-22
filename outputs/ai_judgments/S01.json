@@ -1,0 +1,50 @@
+{
+  "canonical_parent": "S01",
+  "confidence": 0.54,
+  "decision": "request_thermal_boundary_evidence",
+  "decision_id": "S01-JDG-001",
+  "decision_rule_trace": [
+    {
+      "expr": "sustained 22761.367107 floor 22000 pressure 0.005953",
+      "result": "request_thermal_boundary_evidence"
+    }
+  ],
+  "hidden_access": false,
+  "profile": "EvidenceSensitiveRuleJudge",
+  "scenario_family": "S01",
+  "scenario_id": "S01",
+  "schema_version": "hynix-v5-ai-judgment-1",
+  "visible_evidence_used": [
+    "circuit_physical.charge_share_delta_v_mv",
+    "circuit_physical.external_report_word",
+    "circuit_physical.proxy_design_pass",
+    "circuit_physical.proxy_execution_pass",
+    "circuit_physical.real_signoff_claim_allowed",
+    "circuit_physical.retention_ms",
+    "circuit_physical.sense_margin_mv",
+    "circuit_physical.sense_margin_p05_mv",
+    "circuit_physical.tns_ns",
+    "circuit_physical.wns_ns",
+    "factory_scene.edge_count",
+    "factory_scene.node_count",
+    "factory_scene.openusd_like_export_path",
+    "factory_scene.qtime_routing_multiplier",
+    "factory_scene.route_congestion_index",
+    "factory_scene.route_cost",
+    "factory_scene.route_delay_min",
+    "memory_system.bank_conflict_rate",
+    "memory_system.fcfs_bandwidth_gbps",
+    "memory_system.frfcfs_bandwidth_gbps",
+    "memory_system.latency_mean_ns",
+    "memory_system.latency_p95_ns",
+    "memory_system.ppa_candidate_a_score",
+    "memory_system.ppa_candidate_b_score",
+    "memory_system.recommended_policy",
+    "memory_system.refresh_loss_pct",
+    "memory_system.row_hit_rate",
+    "memory_system.sustained_bandwidth_gbps",
+    "memory_system.theoretical_bandwidth_gbps",
+    "memory_system.thermal_pressure_index",
+    "memory_system.turnaround_loss_pct"
+  ]
+}

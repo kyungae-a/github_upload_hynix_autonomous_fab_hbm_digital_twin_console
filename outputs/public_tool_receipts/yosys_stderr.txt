@@ -1,0 +1,1 @@
+yosys was not found on PATH; no proxy output was promoted to REAL_EXTERNAL_RUN.

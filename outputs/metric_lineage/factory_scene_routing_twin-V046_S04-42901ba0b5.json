@@ -1,0 +1,15 @@
+{
+  "best_route": "computed by factory scene graph routing model",
+  "congestion_zones": "computed by factory scene graph routing model",
+  "edge_count": "computed by factory scene graph routing model",
+  "edges": "computed by factory scene graph routing model",
+  "node_count": "computed by factory scene graph routing model",
+  "nodes": "computed by factory scene graph routing model",
+  "openusd_like_export_path": "computed by factory scene graph routing model",
+  "qtime_routing_multiplier": "computed by factory scene graph routing model",
+  "route_congestion_index": "computed by factory scene graph routing model",
+  "route_cost": "computed by factory scene graph routing model",
+  "route_delay_min": "computed by factory scene graph routing model",
+  "route_segments": "computed by factory scene graph routing model",
+  "selected_route": "computed by factory scene graph routing model"
+}

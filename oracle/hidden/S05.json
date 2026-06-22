@@ -1,0 +1,5 @@
+{
+  "failure_mode": "average improvement hides rare wafer-edge and chamber-specific tail clustering",
+  "label": "PLAUSIBLE_BUT_INCOMPLETE",
+  "scenario_id": "S05"
+}

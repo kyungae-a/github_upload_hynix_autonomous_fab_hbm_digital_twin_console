@@ -1,0 +1,167 @@
+{
+  "schema_version": "hynix-v5.2-codex-contract-lock-1",
+  "source_file": "docs/reference/hynix_v5_2_concrete_product_implementation_blueprint.md",
+  "source_sha256": "e533fa8f8291bfa595d564aba6e12717c3e196a38dd9dce4563d37a70d04a613",
+  "product_name": "Hynix Autonomous Fab × HBM Digital Twin Console",
+  "product_root": "hynix_public_model_semiconductor_decision_twin",
+  "final_status": "READY_FOR_GITHUB_REVIEW",
+  "public_model_only": true,
+  "commercial_fab_twin_claim": false,
+  "real_signoff_claim": false,
+  "core_subsystems": [
+    "HBM / Memory System Twin",
+    "Circuit / Physical Proxy Twin",
+    "Fab Operation Twin",
+    "Factory Scene / Routing Twin",
+    "AI Judgment Audit Layer"
+  ],
+  "canonical_scenarios": [
+    {
+      "id": "S01",
+      "name": "HBM Thermal-Bandwidth Boundary"
+    },
+    {
+      "id": "S02",
+      "name": "Memory PPA Hard Constraint"
+    },
+    {
+      "id": "S03",
+      "name": "Fab Dispatch / Q-Time Global Flow"
+    },
+    {
+      "id": "S04",
+      "name": "Tool-Chamber Observability / Metrology Lag"
+    },
+    {
+      "id": "S05",
+      "name": "Process Recipe / Yield-Tail Risk"
+    },
+    {
+      "id": "S06",
+      "name": "Proxy Evidence / Signoff Boundary"
+    }
+  ],
+  "variant_minimum": 60,
+  "variant_minimum_per_family": 10,
+  "red_team_caught_min": 4,
+  "red_team_caught_max": 5,
+  "red_team_escape_min": 1,
+  "hbm_workloads": [
+    "LLM_TRAINING_BURST",
+    "INFERENCE_LATENCY_SENSITIVE",
+    "THERMAL_SUSTAINED_BANDWIDTH",
+    "REFRESH_INTERFERENCE_STRESS",
+    "READ_WRITE_TURNAROUND_STRESS",
+    "BANK_GROUP_CONFLICT_STRESS"
+  ],
+  "hbm_policies": [
+    "FCFS",
+    "FR_FCFS",
+    "WRITE_DRAIN",
+    "THERMAL_SAFE",
+    "REFRESH_AWARE",
+    "BALANCED"
+  ],
+  "pvt_corners": [
+    "TT_25C",
+    "SS_85C",
+    "FF_0C",
+    "HOT_LEAKAGE_95C",
+    "LOW_VDD_85C"
+  ],
+  "dispatch_policies": [
+    "PRIORITY_FIRST",
+    "QTIME_FIRST",
+    "BOTTLENECK_AWARE",
+    "BALANCED",
+    "MAINTENANCE_AWARE"
+  ],
+  "run_statuses": [
+    "REAL_EXTERNAL_RUN",
+    "REAL_INTERNAL_RUN",
+    "REAL_REPRODUCIBLE_PUBLIC_TOOL_RUN",
+    "MOCKED_WITH_PUBLIC_SCHEMA",
+    "EXPLAINED_UNAVAILABLE",
+    "FAILED_WITH_EXPLANATION"
+  ],
+  "required_real_internal_engines": [
+    "hbm_memory_twin",
+    "circuit_physical_proxy_twin",
+    "fab_operation_twin",
+    "factory_scene_routing_twin"
+  ],
+  "required_public_tool_attempts": [
+    "ngspice",
+    "yosys",
+    "verilator",
+    "simpy"
+  ],
+  "required_dashboard_sections": [
+    "architecture",
+    "hbm_workload",
+    "circuit_physical",
+    "fab_operation",
+    "factory_scene",
+    "public_tool_evidence",
+    "ai_audit",
+    "variant_matrix",
+    "hynix_alignment"
+  ],
+  "required_screenshots": [
+    "01_architecture.png",
+    "02_fab_qtime_timeline.png",
+    "03_hbm_workload_policy_compare.png",
+    "04_factory_scene_routing.png",
+    "05_public_tool_evidence.png",
+    "06_ai_judgment_audit_flow.png"
+  ],
+  "required_make_targets": [
+    "setup-light",
+    "setup-medium",
+    "demo-light",
+    "demo-medium",
+    "demo-heavy",
+    "run-canonical",
+    "run-variants",
+    "run-public-tools",
+    "dashboard",
+    "screenshots",
+    "validate",
+    "validate-medium",
+    "package-release",
+    "verify-clean-unzip"
+  ],
+  "phases": [
+    "P00",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18"
+  ],
+  "forbidden": [
+    "all-mock scaffold",
+    "label-only module",
+    "scenario-copied evidence",
+    "scripted judge output",
+    "scenario_id-prefix variant routing",
+    "6/6 red-team canonical catch",
+    "virtual supervisor real signoff",
+    "placeholder screenshot",
+    "fake external run",
+    "pycache in release"
+  ]
+}

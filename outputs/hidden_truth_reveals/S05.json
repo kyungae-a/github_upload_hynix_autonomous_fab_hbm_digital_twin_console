@@ -1,0 +1,7 @@
+{
+  "append_only": true,
+  "failure_mode": "average improvement hides rare wafer-edge and chamber-specific tail clustering",
+  "post_reveal_label": "PLAUSIBLE_BUT_INCOMPLETE",
+  "scenario_id": "S05",
+  "schema_version": "hynix-v5-hidden-truth-reveal-1"
+}

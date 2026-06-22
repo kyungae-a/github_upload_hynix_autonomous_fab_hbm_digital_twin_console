@@ -1,0 +1,35 @@
+{
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "ngspice",
+    "-b",
+    "public_tool_runs/ngspice/netlists/read_path_charge_sharing.sp",
+    "-o",
+    "outputs/public_tool_receipts/ngspice_native.log"
+  ],
+  "environment": "current-subprocess-attempt",
+  "executable": "ngspice",
+  "executable_path": null,
+  "exit_status": 0,
+  "input_sha256": "e2b3118c7dd20dffce5d5db8ecd684c544073a218caa0f81a546d7e5f1295657",
+  "log_path": "outputs/public_tool_receipts/ngspice_attempt.log",
+  "log_sha256": "d6f0317c9e75b6880b35c88b78f01af252969d334a62c4363e0d8a2e8cfe4abc",
+  "parsed_metrics_path": "outputs/public_tool_receipts/ngspice_parsed.json",
+  "parsed_output_path": "outputs/public_tool_receipts/ngspice_parsed.json",
+  "parsed_output_sha256": "ff153015c39d58c9c8beb9c894df196a612784d65b4bb16982f40aa1fa995e39",
+  "parser_status": "EXPLAINED",
+  "raw_output_path": "outputs/public_tool_receipts/ngspice_raw.json",
+  "raw_output_sha256": "54869734a92dd0155306ae12d0ef693471386c0e2fcd20cb972861e0f0c537cb",
+  "reason": "ngspice executable unavailable",
+  "relative_cwd": ".",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_path": "outputs/public_tool_receipts/ngspice_stderr.txt",
+  "stderr_sha256": "fead963e22eacddd9bb75b9fe2a79d35c89db30d4f5160d92c2370de4a416206",
+  "stdout_path": "outputs/public_tool_receipts/ngspice_stdout.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tool": "ngspice"
+}

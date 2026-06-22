@@ -1,0 +1,20 @@
+{
+  "attempted": true,
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "verilator",
+    "--lint-only",
+    "public_tool_runs/rtl/rtl/hbm_policy_controller.v"
+  ],
+  "executable_path": null,
+  "log_path": "outputs/public_tool_receipts/verilator_attempt.log",
+  "reason": "verilator executable unavailable",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_path": "outputs/public_tool_receipts/verilator_stderr.txt",
+  "stdout_path": "outputs/public_tool_receipts/verilator_stdout.txt",
+  "tool": "verilator"
+}

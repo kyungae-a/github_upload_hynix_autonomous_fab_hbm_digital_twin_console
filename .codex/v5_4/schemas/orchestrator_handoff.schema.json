@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "artifacts": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "current_phase": {
+      "type": "string"
+    },
+    "next_action": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "CONTINUE",
+        "BLOCKED",
+        "AWAITING_GITHUB_MEDIUM",
+        "READY_FOR_GITHUB_REVIEW"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "current_phase",
+    "summary",
+    "next_action"
+  ],
+  "type": "object"
+}

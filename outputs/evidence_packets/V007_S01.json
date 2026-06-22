@@ -1,0 +1,536 @@
+{
+  "canonical_parent": "S01",
+  "claim_limits": [
+    "public_model_only",
+    "requires_real_domain_signoff"
+  ],
+  "computed_state": {
+    "circuit_physical": {
+      "charge_share_delta_v_mv": 103.448276,
+      "domain": "circuit_physical",
+      "external_report_word": "PUBLIC_PROXY_REPORT",
+      "proxy_design_pass": true,
+      "proxy_execution_pass": true,
+      "real_signoff_claim_allowed": false,
+      "retention_ms": 256.0,
+      "sense_margin_mv": 45.848276,
+      "sense_margin_p05_mv": 41.648276,
+      "tns_ns": 0,
+      "wns_ns": 0.04
+    },
+    "factory_scene": {
+      "best_route": [
+        "STOCKER_A",
+        "ETCH_1",
+        "METRO_1",
+        "STOCKER_B"
+      ],
+      "congestion_zones": [
+        {
+          "center_xy": [
+            4,
+            1
+          ],
+          "radius": 0.85,
+          "reason": "metrology queue pressure",
+          "severity": 0.3565,
+          "zone_id": "Z_METRO"
+        },
+        {
+          "center_xy": [
+            2,
+            1
+          ],
+          "radius": 0.75,
+          "reason": "shared stocker to etch transport edge",
+          "severity": 0.2604,
+          "zone_id": "Z_ETCH_BUFFER"
+        }
+      ],
+      "domain": "factory_scene",
+      "edge_count": 5,
+      "edges": [
+        {
+          "cost": 3.31,
+          "from": "STOCKER_A",
+          "to": "ETCH_1"
+        },
+        {
+          "cost": 2.62,
+          "from": "ETCH_1",
+          "to": "METRO_1"
+        },
+        {
+          "cost": 3.934,
+          "from": "ETCH_1",
+          "to": "CVD_1"
+        },
+        {
+          "cost": 3.11,
+          "from": "CVD_1",
+          "to": "STOCKER_B"
+        },
+        {
+          "cost": 2.727,
+          "from": "METRO_1",
+          "to": "STOCKER_B"
+        }
+      ],
+      "node_count": 5,
+      "nodes": [
+        {
+          "id": "STOCKER_A",
+          "kind": "stocker",
+          "xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "ETCH_1",
+          "kind": "tool",
+          "xy": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "METRO_1",
+          "kind": "metrology",
+          "xy": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "CVD_1",
+          "kind": "tool",
+          "xy": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "STOCKER_B",
+          "kind": "stocker",
+          "xy": [
+            5,
+            5
+          ]
+        }
+      ],
+      "openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+      "qtime_routing_multiplier": 1.1085,
+      "route_congestion_index": 0.31,
+      "route_cost": 8.657,
+      "route_delay_min": 17.461169,
+      "route_segments": [
+        {
+          "cost": 3.31,
+          "delay_min": 6.67627,
+          "from": "STOCKER_A",
+          "from_xy": [
+            0,
+            0
+          ],
+          "segment_id": "R01",
+          "to": "ETCH_1",
+          "to_xy": [
+            2,
+            1
+          ]
+        },
+        {
+          "cost": 2.62,
+          "delay_min": 5.28454,
+          "from": "ETCH_1",
+          "from_xy": [
+            2,
+            1
+          ],
+          "segment_id": "R02",
+          "to": "METRO_1",
+          "to_xy": [
+            4,
+            1
+          ]
+        },
+        {
+          "cost": 2.727,
+          "delay_min": 5.500359,
+          "from": "METRO_1",
+          "from_xy": [
+            4,
+            1
+          ],
+          "segment_id": "R03",
+          "to": "STOCKER_B",
+          "to_xy": [
+            5,
+            5
+          ]
+        }
+      ],
+      "selected_route": [
+        "STOCKER_A",
+        "ETCH_1",
+        "METRO_1",
+        "STOCKER_B"
+      ]
+    },
+    "memory_system": {
+      "bank_conflict_rate": 0.309592,
+      "display_metrics": {
+        "fcfs_bandwidth_GBps": {
+          "derivation": "GB/s = Gbps / 8",
+          "source_metric_path": "raw_metrics.fcfs_bandwidth_gbps",
+          "value": 2819.296153
+        },
+        "frfcfs_bandwidth_GBps": {
+          "derivation": "GB/s = Gbps / 8",
+          "source_metric_path": "raw_metrics.frfcfs_bandwidth_gbps",
+          "value": 3071.721045
+        },
+        "sustained_bandwidth_GBps": {
+          "derivation": "GB/s = Gbps / 8",
+          "source_metric_path": "raw_metrics.sustained_bandwidth_gbps",
+          "value": 3064.015316
+        },
+        "theoretical_bandwidth_GBps": {
+          "derivation": "GB/s = Gbps / 8",
+          "source_metric_path": "raw_metrics.theoretical_bandwidth_gbps",
+          "value": 4409.6
+        }
+      },
+      "domain": "memory_system",
+      "fcfs_bandwidth_gbps": 22554.369224,
+      "frfcfs_bandwidth_gbps": 24573.768357,
+      "latency_mean_ns": 65.054748,
+      "latency_p95_ns": 73.004748,
+      "policy_comparison": [
+        {
+          "bank_conflict_rate": 0.309592,
+          "bank_group_conflict_rate": 0.130029,
+          "display_bandwidth_GBps": 2819.296153,
+          "hard_constraint_result": "PASS",
+          "p99_latency_ns": 75.481484,
+          "policy_id": "FCFS",
+          "raw_bandwidth_gbps": 22554.369224,
+          "recommendation_reason": "baseline fairness, lower scheduler complexity",
+          "refresh_overhead_pct": 2.214062,
+          "score": 21995.757042,
+          "thermal_pressure": 0.001806
+        },
+        {
+          "bank_conflict_rate": 0.266249,
+          "bank_group_conflict_rate": 0.111453,
+          "display_bandwidth_GBps": 3071.721045,
+          "hard_constraint_result": "PASS",
+          "p99_latency_ns": 77.029444,
+          "policy_id": "FR-FCFS",
+          "raw_bandwidth_gbps": 24573.768357,
+          "recommendation_reason": "higher effective bandwidth with bounded thermal pressure",
+          "refresh_overhead_pct": 2.214062,
+          "score": 24504.743584,
+          "thermal_pressure": 0.002509
+        },
+        {
+          "bank_conflict_rate": 0.278633,
+          "bank_group_conflict_rate": 0.105261,
+          "display_bandwidth_GBps": 3064.015316,
+          "hard_constraint_result": "PASS",
+          "p99_latency_ns": 76.100668,
+          "policy_id": "THERMAL_AWARE_FRFCFS",
+          "raw_bandwidth_gbps": 24512.122526,
+          "recommendation_reason": "recommended when reviewer prioritizes sustained bandwidth and margin",
+          "refresh_overhead_pct": 2.614062,
+          "score": 24512.122526,
+          "thermal_pressure": 0.0
+        }
+      ],
+      "ppa_candidate_a_score": 26539.669826,
+      "ppa_candidate_b_score": 24082.29299,
+      "raw_metrics": {
+        "fcfs_bandwidth_gbps": 22554.369224,
+        "frfcfs_bandwidth_gbps": 24573.768357,
+        "sustained_bandwidth_gbps": 24512.122526,
+        "theoretical_bandwidth_gbps": 35276.8
+      },
+      "recommended_policy": "THERMAL_AWARE_FRFCFS",
+      "refresh_loss_pct": 2.214062,
+      "row_hit_rate": 0.4452,
+      "sustained_bandwidth_gbps": 24512.122526,
+      "theoretical_bandwidth_gbps": 35276.8,
+      "thermal_pressure_index": 0.002509,
+      "turnaround_loss_pct": 4.876736,
+      "unit_notes": {
+        "conversion": "GB/s = Gbps / 8",
+        "display_suffix": "_GBps",
+        "raw_suffix": "_gbps"
+      }
+    }
+  },
+  "constraints": {
+    "min_sustained_gbps": 22000,
+    "real_signoff_required": true
+  },
+  "cross_twin_coupling": [
+    {
+      "from": "circuit.proxy_design_pass",
+      "to": "supervisor.signoff_boundary",
+      "value": false
+    }
+  ],
+  "engine_provenance": [
+    {
+      "canonical_parent": "S01",
+      "code_sha256": "46c40123295d322d3b9ff578217af949dab54a1bee9889c8a5598132e8f7998d",
+      "command": "python -B -m twin_core.scenario_runner --engine hbm_memory_system_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "hbm_memory_system_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "feed0c7cdedd0faad1e9293701ca1e0f3e195c200497845fd89b70a2edc143a8",
+      "metric_lineage_path": "outputs/metric_lineage/hbm_memory_system_twin-V007_S01-feed0c7cde.json",
+      "metric_lineage_sha256": "d583dcdf45376d6d9baaf271ad87dc26ba071b62f9f42010e22be84e08dcced6",
+      "parsed_output_path": "outputs/engine_parsed/hbm_memory_system_twin-V007_S01-feed0c7cde.json",
+      "parsed_output_sha256": "d1728cf865e587df1085b3a56538241cbb11e947e041d04375fdf969ea7b0f63",
+      "raw_output_path": "outputs/engine_raw/hbm_memory_system_twin-V007_S01-feed0c7cde.json",
+      "raw_output_sha256": "91e44f69c344e9014139ccfc7891c58b1ae72a9d4859266e5e0b58703fe6f159",
+      "relative_cwd": ".",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde",
+      "scenario_family": "S01",
+      "scenario_id": "V007_S01",
+      "seed": 1107,
+      "status": "REAL_INTERNAL_RUN"
+    },
+    {
+      "canonical_parent": "S01",
+      "code_sha256": "d8776f86b04058f4f3a956279d190ec0fc17c84965b0113f80450079047584f0",
+      "command": "python -B -m twin_core.scenario_runner --engine circuit_physical_proxy_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "circuit_physical_proxy_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "e2f81b1fea46d74f0b9d3546080d8f571289ddbac4f04477c135104e88a4d21f",
+      "metric_lineage_path": "outputs/metric_lineage/circuit_physical_proxy_twin-V007_S01-e2f81b1fea.json",
+      "metric_lineage_sha256": "88fc8d70a80a17de0d7156dcb0c2a210242a11e270462cae6d8f2760eb287a05",
+      "parsed_output_path": "outputs/engine_parsed/circuit_physical_proxy_twin-V007_S01-e2f81b1fea.json",
+      "parsed_output_sha256": "a571bfdea676b7bc828f356668ae9032b3b1d69ce2388f0b913e81115a497bbc",
+      "raw_output_path": "outputs/engine_raw/circuit_physical_proxy_twin-V007_S01-e2f81b1fea.json",
+      "raw_output_sha256": "a236a855d8a9282afda25b0f8654d3421767bf5f885973582ec33877f77d42ab",
+      "relative_cwd": ".",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea",
+      "scenario_family": "S01",
+      "scenario_id": "V007_S01",
+      "seed": 1107,
+      "status": "REAL_INTERNAL_RUN"
+    },
+    {
+      "canonical_parent": "S01",
+      "code_sha256": "47b664b354ec1d0425aaadf5e087de8c9d254148c4a62e0b425ce9f0d9acbee1",
+      "command": "python -B -m twin_core.scenario_runner --engine factory_scene_routing_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "factory_scene_routing_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "1ba5587fac72f344228afea3ef8451d4f1da5a9b5d0b0d6d77bbc61ea98aed29",
+      "metric_lineage_path": "outputs/metric_lineage/factory_scene_routing_twin-V007_S01-1ba5587fac.json",
+      "metric_lineage_sha256": "f2b5c4f1f68752e9304ab4b8f38abe023f42232aab593f08fbd029129714ae76",
+      "parsed_output_path": "outputs/engine_parsed/factory_scene_routing_twin-V007_S01-1ba5587fac.json",
+      "parsed_output_sha256": "5550a07914fcd6d15d853c46aef765b977bd505dad775999007ab87ec9ad04e4",
+      "raw_output_path": "outputs/engine_raw/factory_scene_routing_twin-V007_S01-1ba5587fac.json",
+      "raw_output_sha256": "8e56f251f33c44dfc3f6200ba857bd05024f19ae1c1e24d81f7ecd48c100239d",
+      "relative_cwd": ".",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac",
+      "scenario_family": "S01",
+      "scenario_id": "V007_S01",
+      "seed": 1107,
+      "status": "REAL_INTERNAL_RUN"
+    }
+  ],
+  "engine_run_ids": [
+    "hbm_memory_system_twin-V007_S01-feed0c7cde",
+    "circuit_physical_proxy_twin-V007_S01-e2f81b1fea",
+    "factory_scene_routing_twin-V007_S01-1ba5587fac"
+  ],
+  "input_hash": "6e297edd52baa2d79c64f20e90e399c541e49d64b12019d0c93eb4b148d5f5d1",
+  "metric_lineage": {
+    "circuit_physical.charge_share_delta_v_mv": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.external_report_word": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.proxy_design_pass": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.proxy_execution_pass": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.real_signoff_claim_allowed": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.retention_ms": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.sense_margin_mv": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.sense_margin_p05_mv": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.tns_ns": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "circuit_physical.wns_ns": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V007_S01-e2f81b1fea"
+    },
+    "factory_scene.edge_count": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "factory_scene.node_count": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "factory_scene.openusd_like_export_path": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "factory_scene.qtime_routing_multiplier": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "factory_scene.route_congestion_index": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "factory_scene.route_cost": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "factory_scene.route_delay_min": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V007_S01-1ba5587fac"
+    },
+    "memory_system.bank_conflict_rate": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.fcfs_bandwidth_gbps": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.frfcfs_bandwidth_gbps": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.latency_mean_ns": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.latency_p95_ns": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.ppa_candidate_a_score": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.ppa_candidate_b_score": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.recommended_policy": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.refresh_loss_pct": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.row_hit_rate": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.sustained_bandwidth_gbps": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.theoretical_bandwidth_gbps": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.thermal_pressure_index": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    },
+    "memory_system.turnaround_loss_pct": {
+      "formula": "computed by HBM workload public model",
+      "run_id": "hbm_memory_system_twin-V007_S01-feed0c7cde"
+    }
+  },
+  "packet_sha256": "dd2b70ffc56c2d87c7823c9379db153958248d18e0a0b897a5e616b439e58bb6",
+  "public_tool_receipts": [],
+  "question": "Is the AI decision correct only inside a partial memory twin while missing thermal/power boundary conditions?",
+  "scenario_family": "S01",
+  "scenario_id": "V007_S01",
+  "schema_version": "hynix-v5-evidence-packet-1",
+  "title": "HBM4 Thermal-Bandwidth Model Boundary",
+  "twin_scope": [
+    "memory_system",
+    "circuit_physical",
+    "factory_scene"
+  ],
+  "variant_id": "V007_S01",
+  "visible_metrics": {
+    "circuit_physical.charge_share_delta_v_mv": 103.448276,
+    "circuit_physical.external_report_word": "PUBLIC_PROXY_REPORT",
+    "circuit_physical.proxy_design_pass": true,
+    "circuit_physical.proxy_execution_pass": true,
+    "circuit_physical.real_signoff_claim_allowed": false,
+    "circuit_physical.retention_ms": 256.0,
+    "circuit_physical.sense_margin_mv": 45.848276,
+    "circuit_physical.sense_margin_p05_mv": 41.648276,
+    "circuit_physical.tns_ns": 0,
+    "circuit_physical.wns_ns": 0.04,
+    "factory_scene.edge_count": 5,
+    "factory_scene.node_count": 5,
+    "factory_scene.openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+    "factory_scene.qtime_routing_multiplier": 1.1085,
+    "factory_scene.route_congestion_index": 0.31,
+    "factory_scene.route_cost": 8.657,
+    "factory_scene.route_delay_min": 17.461169,
+    "memory_system.bank_conflict_rate": 0.309592,
+    "memory_system.fcfs_bandwidth_gbps": 22554.369224,
+    "memory_system.frfcfs_bandwidth_gbps": 24573.768357,
+    "memory_system.latency_mean_ns": 65.054748,
+    "memory_system.latency_p95_ns": 73.004748,
+    "memory_system.ppa_candidate_a_score": 26539.669826,
+    "memory_system.ppa_candidate_b_score": 24082.29299,
+    "memory_system.recommended_policy": "THERMAL_AWARE_FRFCFS",
+    "memory_system.refresh_loss_pct": 2.214062,
+    "memory_system.row_hit_rate": 0.4452,
+    "memory_system.sustained_bandwidth_gbps": 24512.122526,
+    "memory_system.theoretical_bandwidth_gbps": 35276.8,
+    "memory_system.thermal_pressure_index": 0.002509,
+    "memory_system.turnaround_loss_pct": 4.876736
+  }
+}

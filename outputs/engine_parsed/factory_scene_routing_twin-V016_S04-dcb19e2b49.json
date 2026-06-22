@@ -1,0 +1,160 @@
+{
+  "best_route": [
+    "STOCKER_A",
+    "ETCH_1",
+    "METRO_1",
+    "STOCKER_B"
+  ],
+  "congestion_zones": [
+    {
+      "center_xy": [
+        4,
+        1
+      ],
+      "radius": 0.85,
+      "reason": "metrology queue pressure",
+      "severity": 0.391,
+      "zone_id": "Z_METRO"
+    },
+    {
+      "center_xy": [
+        2,
+        1
+      ],
+      "radius": 0.75,
+      "reason": "shared stocker to etch transport edge",
+      "severity": 0.2856,
+      "zone_id": "Z_ETCH_BUFFER"
+    }
+  ],
+  "domain": "factory_scene",
+  "edge_count": 5,
+  "edges": [
+    {
+      "cost": 3.34,
+      "from": "STOCKER_A",
+      "to": "ETCH_1"
+    },
+    {
+      "cost": 2.68,
+      "from": "ETCH_1",
+      "to": "METRO_1"
+    },
+    {
+      "cost": 3.976,
+      "from": "ETCH_1",
+      "to": "CVD_1"
+    },
+    {
+      "cost": 3.14,
+      "from": "CVD_1",
+      "to": "STOCKER_B"
+    },
+    {
+      "cost": 2.778,
+      "from": "METRO_1",
+      "to": "STOCKER_B"
+    }
+  ],
+  "node_count": 5,
+  "nodes": [
+    {
+      "id": "STOCKER_A",
+      "kind": "stocker",
+      "xy": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ETCH_1",
+      "kind": "tool",
+      "xy": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": "METRO_1",
+      "kind": "metrology",
+      "xy": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": "CVD_1",
+      "kind": "tool",
+      "xy": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "STOCKER_B",
+      "kind": "stocker",
+      "xy": [
+        5,
+        5
+      ]
+    }
+  ],
+  "openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+  "qtime_routing_multiplier": 1.119,
+  "route_congestion_index": 0.34,
+  "route_cost": 8.798,
+  "route_delay_min": 17.930324,
+  "route_segments": [
+    {
+      "cost": 3.34,
+      "delay_min": 6.80692,
+      "from": "STOCKER_A",
+      "from_xy": [
+        0,
+        0
+      ],
+      "segment_id": "R01",
+      "to": "ETCH_1",
+      "to_xy": [
+        2,
+        1
+      ]
+    },
+    {
+      "cost": 2.68,
+      "delay_min": 5.46184,
+      "from": "ETCH_1",
+      "from_xy": [
+        2,
+        1
+      ],
+      "segment_id": "R02",
+      "to": "METRO_1",
+      "to_xy": [
+        4,
+        1
+      ]
+    },
+    {
+      "cost": 2.778,
+      "delay_min": 5.661564,
+      "from": "METRO_1",
+      "from_xy": [
+        4,
+        1
+      ],
+      "segment_id": "R03",
+      "to": "STOCKER_B",
+      "to_xy": [
+        5,
+        5
+      ]
+    }
+  ],
+  "selected_route": [
+    "STOCKER_A",
+    "ETCH_1",
+    "METRO_1",
+    "STOCKER_B"
+  ]
+}

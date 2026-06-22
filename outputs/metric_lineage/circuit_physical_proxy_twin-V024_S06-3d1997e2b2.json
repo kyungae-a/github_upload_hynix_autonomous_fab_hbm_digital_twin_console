@@ -1,0 +1,12 @@
+{
+  "charge_share_delta_v_mv": "computed by charge-sharing/timing proxy public model",
+  "external_report_word": "computed by charge-sharing/timing proxy public model",
+  "proxy_design_pass": "computed by charge-sharing/timing proxy public model",
+  "proxy_execution_pass": "computed by charge-sharing/timing proxy public model",
+  "real_signoff_claim_allowed": "computed by charge-sharing/timing proxy public model",
+  "retention_ms": "computed by charge-sharing/timing proxy public model",
+  "sense_margin_mv": "computed by charge-sharing/timing proxy public model",
+  "sense_margin_p05_mv": "computed by charge-sharing/timing proxy public model",
+  "tns_ns": "computed by charge-sharing/timing proxy public model",
+  "wns_ns": "computed by charge-sharing/timing proxy public model"
+}

@@ -1,0 +1,4 @@
+tool=ngspice
+command=ngspice -b public_tool_runs/ngspice/netlists/read_path_charge_sharing.sp -o outputs/public_tool_receipts/ngspice_native.log
+status=EXPLAINED_UNAVAILABLE
+reason=ngspice executable unavailable

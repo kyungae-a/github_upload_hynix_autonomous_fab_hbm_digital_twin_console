@@ -1,0 +1,5 @@
+{
+  "failure_mode": "local LOT-B dispatch pushes LOT-A into a downstream q-over transition",
+  "label": "PLAUSIBLE_BUT_INCOMPLETE",
+  "scenario_id": "S03"
+}

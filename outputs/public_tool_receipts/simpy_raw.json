@@ -1,0 +1,6 @@
+{
+  "attempted": true,
+  "reason": "simpy import failed: ModuleNotFoundError: No module named 'simpy'",
+  "status": "EXPLAINED_UNAVAILABLE",
+  "tool": "simpy"
+}

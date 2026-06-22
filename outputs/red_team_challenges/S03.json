@@ -1,0 +1,11 @@
+{
+  "canonical_parent": "S03",
+  "challenge": "Local dispatch may harm downstream q-time.",
+  "challenge_emitted": true,
+  "challenge_type": "local_global_flow_gap",
+  "scenario_family": "S03",
+  "scenario_id": "S03",
+  "schema_version": "hynix-v5-red-team-1",
+  "target_decision": "S03-JDG-001",
+  "visible_only": true
+}

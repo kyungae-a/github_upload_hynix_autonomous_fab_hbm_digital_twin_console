@@ -1,0 +1,11 @@
+{
+  "canonical_parent": "S02",
+  "challenge": "Reliability hard constraints must precede PPA score.",
+  "challenge_emitted": true,
+  "challenge_type": "hard_constraint_gap",
+  "scenario_family": "S02",
+  "scenario_id": "S02",
+  "schema_version": "hynix-v5-red-team-1",
+  "target_decision": "S02-JDG-001",
+  "visible_only": true
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": "hynix-v5.3-product-contract-lock-1",
+  "product_name": "Hynix Autonomous Fab × HBM Digital Twin Console",
+  "product_root": ".",
+  "source_spec": "docs/reference/hynix_v5_3_10outof10_product_implementation_spec.md",
+  "source_spec_sha256": "28380c8d45aa8da6ff70f3230a94098c8ec806724e0269f6d92ddb041d4f9617",
+  "baseline_archive_sha256": "77c686267f70564585797e29a711162d7c47ae045343cc5f9ba6f3f071846e51",
+  "baseline_manifest_sha256": "4c2982fc0388f854ee2d59bce27fb10691cd3e8b8d6870a7b2668430cc6b463c",
+  "positioning": {
+    "public_model_only": true,
+    "commercial_fab_twin_claim": false,
+    "real_signoff_claim": false,
+    "purpose": "GitHub-heavy, screenshot-ready, interview-grade public-model semiconductor decision twin console"
+  },
+  "core_subsystems": [
+    "HBM / Memory System Twin",
+    "Circuit / Physical Proxy Twin",
+    "Fab Operation Twin",
+    "Factory Scene / Routing Twin",
+    "AI Judgment Audit Layer"
+  ],
+  "canonical_scenarios": [
+    {
+      "id": "S01",
+      "title": "HBM Thermal-Bandwidth Boundary"
+    },
+    {
+      "id": "S02",
+      "title": "Memory PPA Hard Constraint"
+    },
+    {
+      "id": "S03",
+      "title": "Fab Dispatch / Q-Time Global Flow"
+    },
+    {
+      "id": "S04",
+      "title": "Tool-Chamber Observability / Metrology Lag"
+    },
+    {
+      "id": "S05",
+      "title": "Process Recipe / Yield-Tail Risk"
+    },
+    {
+      "id": "S06",
+      "title": "Proxy Evidence / Signoff Boundary"
+    }
+  ],
+  "hbm_workloads": [
+    "LLM_TRAINING_BURST",
+    "LLM_INFERENCE_LATENCY",
+    "SUSTAINED_BANDWIDTH_THERMAL",
+    "REFRESH_STRESS",
+    "READ_WRITE_TURNAROUND_STRESS",
+    "BANK_GROUP_CONFLICT_STRESS"
+  ],
+  "hbm_policies": [
+    "FCFS",
+    "FR_FCFS",
+    "WRITE_DRAIN",
+    "THERMAL_SAFE",
+    "REFRESH_AWARE",
+    "BALANCED"
+  ],
+  "dashboard_pages": [
+    "Overview",
+    "HBM Workload Twin",
+    "Circuit / Physical Proxy Twin",
+    "Fab Operation Twin",
+    "Factory Scene / Routing Twin",
+    "AI Judgment Audit",
+    "Public Tool Evidence",
+    "Scenario Variant Lab",
+    "Hynix Alignment"
+  ],
+  "dashboard_components": [
+    "MetricCard",
+    "StatusBadge",
+    "LineChart",
+    "BarChart",
+    "Timeline",
+    "RouteMap",
+    "EvidenceTable",
+    "DecisionFlow",
+    "ReceiptPanel",
+    "ScenarioSelector",
+    "VariantMatrix"
+  ],
+  "screenshots": [
+    "01_architecture.png",
+    "02_fab_qtime_timeline.png",
+    "03_hbm_workload_policy_compare.png",
+    "04_factory_scene_routing.png",
+    "05_public_tool_evidence.png",
+    "06_ai_judgment_audit_flow.png",
+    "07_hynix_alignment.png",
+    "screenshot_manifest.json"
+  ],
+  "medium_profile_tools": [
+    "ngspice",
+    "yosys",
+    "verilator",
+    "simpy"
+  ],
+  "variant_minimum": 60,
+  "red_team": {
+    "caught_min": 4,
+    "caught_max": 5,
+    "escaped_min": 1
+  },
+  "make_targets": [
+    "setup-light",
+    "setup-medium",
+    "demo-light",
+    "demo-medium",
+    "demo-heavy",
+    "run-canonical",
+    "run-variants",
+    "run-public-tools",
+    "dashboard",
+    "screenshots",
+    "test",
+    "validate",
+    "validate-medium",
+    "package-release",
+    "verify-clean-unzip"
+  ],
+  "required_task_headings": [
+    "Purpose",
+    "Files to create or modify",
+    "Classes and functions to implement",
+    "Input data",
+    "Output data and evidence",
+    "Dashboard change",
+    "Required tests",
+    "Validation commands",
+    "Acceptance / Done criteria",
+    "Forbidden shortcuts"
+  ],
+  "final_status": "READY_FOR_GITHUB_REVIEW",
+  "forbidden": [
+    "label-only modules",
+    "all-mock core evidence",
+    "scenario-copied metrics",
+    "scripted judges",
+    "scenario-id/prefix routing",
+    "6/6 canonical red-team",
+    "hidden-truth leak",
+    "virtual real signoff",
+    "fake external runs",
+    "placeholder screenshots",
+    "JSON-dump main UI",
+    "hard-coded phase PASS",
+    "__pycache__ or .pyc in release"
+  ]
+}

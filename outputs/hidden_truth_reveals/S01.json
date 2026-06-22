@@ -1,0 +1,7 @@
+{
+  "append_only": true,
+  "failure_mode": "stale thermal coupling makes the apparent scheduler win throttle under sustained pressure",
+  "post_reveal_label": "ESCAPED_UNTIL_HIDDEN_TRUTH",
+  "scenario_id": "S01",
+  "schema_version": "hynix-v5-hidden-truth-reveal-1"
+}

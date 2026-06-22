@@ -1,0 +1,7 @@
+{
+  "append_only": true,
+  "failure_mode": "sensor drift masks chamber degradation until delayed metrology confirms a systematic shift",
+  "post_reveal_label": "PLAUSIBLE_BUT_INCOMPLETE",
+  "scenario_id": "S04",
+  "schema_version": "hynix-v5-hidden-truth-reveal-1"
+}

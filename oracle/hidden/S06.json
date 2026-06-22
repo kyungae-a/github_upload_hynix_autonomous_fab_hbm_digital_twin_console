@@ -1,0 +1,5 @@
+{
+  "failure_mode": "execution PASS is not design pass and never product signoff",
+  "label": "BLOCKED_BY_SUPERVISOR",
+  "scenario_id": "S06"
+}

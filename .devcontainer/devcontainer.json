@@ -1,0 +1,7 @@
+{
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "name": "hynix-public-model-decision-twin",
+  "postCreateCommand": "make setup"
+}

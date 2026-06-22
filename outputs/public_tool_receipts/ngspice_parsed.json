@@ -1,0 +1,9 @@
+{
+  "parser_status": "EXPLAINED",
+  "reason": "ngspice executable unavailable",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_preview": "ngspice was not found on PATH; no proxy output was promoted to REAL_EXTERNAL_RUN.\n",
+  "stdout_preview": "",
+  "tool": "ngspice"
+}

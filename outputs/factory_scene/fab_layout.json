@@ -1,0 +1,45 @@
+{
+  "coordinate_system": "public_model_xy",
+  "nodes": [
+    {
+      "id": "STOCKER_A",
+      "kind": "stocker",
+      "xy": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "ETCH_1",
+      "kind": "tool",
+      "xy": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": "METRO_1",
+      "kind": "metrology",
+      "xy": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": "CVD_1",
+      "kind": "tool",
+      "xy": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "STOCKER_B",
+      "kind": "stocker",
+      "xy": [
+        5,
+        5
+      ]
+    }
+  ]
+}

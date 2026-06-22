@@ -1,0 +1,7 @@
+{
+  "append_only": true,
+  "failure_mode": "candidate A violates hot-corner retention and sense-margin constraints",
+  "post_reveal_label": "PLAUSIBLE_BUT_WRONG",
+  "scenario_id": "S02",
+  "schema_version": "hynix-v5-hidden-truth-reveal-1"
+}

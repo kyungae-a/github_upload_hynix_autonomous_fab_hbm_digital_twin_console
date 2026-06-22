@@ -1,0 +1,24 @@
+{
+  "all_mock_release": false,
+  "public_tool_attempt_count": 4,
+  "public_tool_status_by_tool": {
+    "ngspice": "EXPLAINED_UNAVAILABLE",
+    "simpy": "EXPLAINED_UNAVAILABLE",
+    "verilator": "EXPLAINED_UNAVAILABLE",
+    "yosys": "EXPLAINED_UNAVAILABLE"
+  },
+  "ready_for_github_review": true,
+  "real_internal_run_count": 4,
+  "real_internal_run_engines": [
+    "circuit_physical_proxy_twin",
+    "fab_operation_twin",
+    "factory_scene_routing_twin",
+    "hbm_memory_system_twin"
+  ],
+  "real_public_tool_run_count": 0,
+  "red_team_caught_or_flagged": 5,
+  "red_team_escaped_until_hidden_truth": 1,
+  "scenario_count": 6,
+  "schema_version": "hynix-v5-audit-metrics-1",
+  "supervisor_requires_real_signoff": 6
+}

@@ -1,0 +1,20 @@
+{
+  "attempted": true,
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "yosys",
+    "-p",
+    "read_verilog public_tool_runs/rtl/rtl/hbm_policy_controller.v; synth; stat"
+  ],
+  "executable_path": null,
+  "log_path": "outputs/public_tool_receipts/yosys_attempt.log",
+  "reason": "yosys executable unavailable",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_path": "outputs/public_tool_receipts/yosys_stderr.txt",
+  "stdout_path": "outputs/public_tool_receipts/yosys_stdout.txt",
+  "tool": "yosys"
+}

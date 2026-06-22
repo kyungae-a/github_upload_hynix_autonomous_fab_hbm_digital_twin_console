@@ -1,0 +1,188 @@
+{
+  "allowed_build_statuses": [
+    "REWORK_REQUIRED",
+    "IN_PROGRESS",
+    "AWAITING_GITHUB_MEDIUM",
+    "READY_FOR_GITHUB_REVIEW"
+  ],
+  "baseline_archive_sha256": "0979456db809d195bcf4f66739c973ff7f47ee4374f71d0c6b533647ca1c177c",
+  "baseline_manifest_schema": "hynix-v5.3-release-manifest-1",
+  "baseline_manifest_sha256": "6df0c52d9f9291c107634ab06f361e1949a5dc58bd07fbac9e3e6566206a33ce",
+  "final_status": "READY_FOR_GITHUB_REVIEW",
+  "five_gap_contract": {
+    "factory_route_map": {
+      "fallback_sample_map_forbidden": true,
+      "minimum_edges": 5,
+      "minimum_nodes": 5,
+      "minimum_selected_route_length": 3,
+      "required_fields": [
+        "nodes",
+        "edges",
+        "selected_route",
+        "route_segments",
+        "congestion_zones",
+        "route_cost",
+        "route_delay_min",
+        "openusd_like_export_path"
+      ]
+    },
+    "github_actions_medium": {
+      "ci_manifest": "outputs/public_tool_evidence/ci_run_manifest.json",
+      "local_and_ci_status_must_be_separate": true,
+      "local_fabricated_github_url_forbidden": true,
+      "tools": [
+        "ngspice",
+        "yosys",
+        "verilator",
+        "simpy"
+      ]
+    },
+    "hbm_unit_normalization": {
+      "conversion": "GB/s = Gbps / 8",
+      "display_suffix": "_GBps",
+      "frontend_must_not_label_raw_gbps_as_GBps": true,
+      "raw_suffix": "_gbps"
+    },
+    "product_docs": {
+      "required_docs": [
+        "docs/05_HBM_WORKLOAD_TWIN.md",
+        "docs/07_FAB_OPERATION_TWIN.md",
+        "docs/08_FACTORY_SCENE_ROUTING_TWIN.md",
+        "docs/09_AI_JUDGMENT_AUDIT_LAYER.md",
+        "docs/11_IMPLEMENTATION_EVIDENCE.md"
+      ]
+    },
+    "screenshot_visual_contract": {
+      "browser_capture_required": true,
+      "json_dump_or_placeholder_forbidden": true
+    }
+  },
+  "forbidden_shortcuts": [
+    "raw Gbps displayed as GB/s",
+    "frontend fallback route map",
+    "node-count-only factory page",
+    "synthetic frontend Fab timeline",
+    "generic card or JSON-dump screenshots",
+    "local fabrication of GitHub Actions URL or CI receipt",
+    "file-existence-only validation",
+    "product runtime writing phase PASS or READY state",
+    "hard-coded READY_FOR_GITHUB_REVIEW in frontend",
+    "duplicate public-tool cards from raw/parsed/receipt files",
+    "shallow three-line product documentation"
+  ],
+  "pages": [
+    "Overview",
+    "HBM Workload Twin",
+    "Circuit / Physical Proxy Twin",
+    "Fab Operation Twin",
+    "Factory Scene / Routing Twin",
+    "AI Judgment Audit",
+    "Public Tool Evidence",
+    "Scenario Variant Lab",
+    "Hynix Alignment"
+  ],
+  "phases": [
+    "P00",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11"
+  ],
+  "product_name": "Hynix Autonomous Fab x HBM Digital Twin Console",
+  "public_model_only": true,
+  "real_signoff_claim": false,
+  "required_make_targets": [
+    "demo-light",
+    "demo-medium",
+    "demo-heavy",
+    "run-canonical",
+    "run-variants",
+    "run-public-tools",
+    "dashboard",
+    "screenshots",
+    "test",
+    "validate",
+    "validate-medium",
+    "package-release",
+    "verify-clean-unzip"
+  ],
+  "required_release_manifest_fields": {
+    "factory_route_map_ready": true,
+    "github_actions_medium_ready": true,
+    "hbm_unit_normalized": true,
+    "product_docs_contract_passed": true,
+    "product_name": "Hynix Autonomous Fab x HBM Digital Twin Console",
+    "public_model_only": true,
+    "real_signoff_claim": false,
+    "schema_version": "hynix-v5.4-release-manifest-1",
+    "screenshot_visual_contract_passed": true
+  },
+  "schema_version": "hynix-v5.4-contract-lock-1",
+  "screenshots": {
+    "01_architecture.png": [
+      "five_core_layers",
+      "evidence_chain_arrow"
+    ],
+    "02_fab_qtime_timeline.png": [
+      "LOT_A_curve",
+      "LOT_B_curve",
+      "q_over_threshold",
+      "dispatch_marker",
+      "metrology_delay_marker",
+      "event_log",
+      "tool_or_chamber_label"
+    ],
+    "03_hbm_workload_policy_compare.png": [
+      "policy_x_axis",
+      "effective_GBps_bar",
+      "sustained_GBps_bar",
+      "p99_latency",
+      "thermal_pressure",
+      "recommended_policy",
+      "unit_note"
+    ],
+    "04_factory_scene_routing.png": [
+      "coordinate_plane",
+      "five_node_labels",
+      "five_edges",
+      "selected_route",
+      "congestion_zone",
+      "route_cost_delay"
+    ],
+    "05_public_tool_evidence.png": [
+      "four_tool_statuses",
+      "local_status",
+      "ci_status",
+      "unavailable_explanation",
+      "not_real_signoff_boundary"
+    ],
+    "06_ai_judgment_audit_flow.png": [
+      "Evidence_Packet",
+      "AI_Judge",
+      "Red_team",
+      "Meta_Judge",
+      "Supervisor",
+      "Hidden_Truth",
+      "caught_or_escaped",
+      "approved_and_blocked_claim",
+      "requires_real_signoff"
+    ],
+    "07_hynix_alignment.png": [
+      "Autonomous_Fab",
+      "Digital_Twin",
+      "HBM_workload",
+      "Q_time_LOT_priority",
+      "AI_judgment_audit",
+      "public_model_boundary"
+    ]
+  },
+  "source_directive_sha256": "eceb397237971df0faa33d6edf3b3211ed9700317d18a209b20a6d415fcd2e89",
+  "upgrade_mode": "IN_PLACE_NO_NESTED_CLONE"
+}

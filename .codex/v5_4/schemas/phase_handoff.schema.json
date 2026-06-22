@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "artifacts": {
+      "items": {
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "run_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "changed_files": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "commands": {
+      "items": {
+        "properties": {
+          "command": {
+            "type": "string"
+          },
+          "log_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "return_code": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "command",
+          "return_code"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "dashboard_impact": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "implemented_symbols": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "open_findings": {
+      "items": {
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "severity": {
+            "enum": [
+              "P0",
+              "P1",
+              "P2"
+            ]
+          }
+        },
+        "required": [
+          "severity",
+          "message"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "phase": {
+      "pattern": "^P(0[0-9]|1[01])$",
+      "type": "string"
+    },
+    "role": {
+      "enum": [
+        "writer",
+        "reviewer",
+        "parent"
+      ]
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "BLOCKED",
+        "AWAITING_GITHUB_MEDIUM"
+      ]
+    }
+  },
+  "required": [
+    "phase",
+    "role",
+    "status",
+    "changed_files",
+    "implemented_symbols",
+    "commands",
+    "artifacts",
+    "open_findings"
+  ],
+  "title": "v5.4 phase handoff",
+  "type": "object"
+}

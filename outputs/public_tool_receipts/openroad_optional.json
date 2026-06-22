@@ -1,0 +1,6 @@
+{
+  "reason": "optional heavy tool not installed; no mock substituted",
+  "receipt_path": "outputs/public_tool_receipts/openroad_optional.json",
+  "status": "EXPLAINED_UNAVAILABLE",
+  "tool": "openroad_optional"
+}

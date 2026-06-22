@@ -1,0 +1,17 @@
+{
+  "avg_defect_delta_pct": "computed by deterministic fab event model",
+  "dispatch_markers": "computed by deterministic fab event model",
+  "events": "computed by deterministic fab event model",
+  "local_dispatch_score": "computed by deterministic fab event model",
+  "lot_a_max_qtime_min": "computed by deterministic fab event model",
+  "lot_qtime_trajectories": "computed by deterministic fab event model",
+  "lots_processed": "computed by deterministic fab event model",
+  "metrology_delay_markers": "computed by deterministic fab event model",
+  "metrology_delay_min": "computed by deterministic fab event model",
+  "observability_risk_index": "computed by deterministic fab event model",
+  "q_over_threshold": "computed by deterministic fab event model",
+  "qtime_risk_index": "computed by deterministic fab event model",
+  "tail_risk_index": "computed by deterministic fab event model",
+  "throughput_delta_pct": "computed by deterministic fab event model",
+  "tool_utilization": "computed by deterministic fab event model"
+}

@@ -1,0 +1,11 @@
+{
+  "canonical_parent": "S04",
+  "challenge": "Metrology lag and drift weaken stable-sensor inference.",
+  "challenge_emitted": true,
+  "challenge_type": "observability_gap",
+  "scenario_family": "S04",
+  "scenario_id": "S04",
+  "schema_version": "hynix-v5-red-team-1",
+  "target_decision": "S04-JDG-001",
+  "visible_only": true
+}

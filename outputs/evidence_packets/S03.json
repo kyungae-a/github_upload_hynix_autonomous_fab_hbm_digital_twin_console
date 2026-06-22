@@ -1,0 +1,1091 @@
+{
+  "canonical_parent": "S03",
+  "claim_limits": [
+    "public_model_only",
+    "requires_real_domain_signoff"
+  ],
+  "computed_state": {
+    "fab_operation": {
+      "avg_defect_delta_pct": 0.0,
+      "dispatch_markers": [
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_A",
+          "time_min": 0.0,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 17.0,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 61.21,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 74.21,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_A",
+          "time_min": 126.21,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 132.42,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 189.42,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 191.63,
+          "tool_id": "TOOL_1"
+        }
+      ],
+      "domain": "fab_operation",
+      "events": [
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 0.0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 0.0,
+          "tool": 0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 17.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 17.0,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 34.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 51.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 61.21,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 64.0,
+          "tool": 0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 68.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 74.21,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 77.0,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 85.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 102.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 119.0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 126.21,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 126.21,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 132.42,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 135.21,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 136.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 153.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 170.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 187.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 189.42,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 191.63,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 192.21,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 194.42,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 204.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 221.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 238.0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 247.42,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 247.42,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 251.84,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 254.63,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 255.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 303.63,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 306.42,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 313.05,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 315.84,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 363.63,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 363.63,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 375.26,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 378.05,
+          "tool": 1
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 421.84,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 424.63,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 438.47,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 441.26,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 483.84,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 496.47,
+          "tool": 1
+        }
+      ],
+      "local_dispatch_score": 0.741267,
+      "lot_a_max_qtime_min": 557.63,
+      "lot_qtime_trajectories": [
+        {
+          "lot_id": "LOT_A",
+          "points": [
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 46.0,
+              "qtime_used_min": 194.0,
+              "time_min": 0.0,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 0.0,
+              "qtime_used_min": 320.21,
+              "time_min": 126.21,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 0.0,
+              "qtime_used_min": 441.42,
+              "time_min": 247.42,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 0.0,
+              "qtime_used_min": 557.63,
+              "time_min": 363.63,
+              "tool_id": "TOOL_0"
+            }
+          ]
+        },
+        {
+          "lot_id": "LOT_B",
+          "points": [
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 234.05,
+              "qtime_used_min": 5.95,
+              "time_min": 17.0,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 218.576,
+              "qtime_used_min": 21.424,
+              "time_min": 61.21,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 214.027,
+              "qtime_used_min": 25.973,
+              "time_min": 74.21,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 193.653,
+              "qtime_used_min": 46.347,
+              "time_min": 132.42,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 173.703,
+              "qtime_used_min": 66.297,
+              "time_min": 189.42,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 172.93,
+              "qtime_used_min": 67.07,
+              "time_min": 191.63,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 151.856,
+              "qtime_used_min": 88.144,
+              "time_min": 251.84,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 133.73,
+              "qtime_used_min": 106.27,
+              "time_min": 303.63,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 130.433,
+              "qtime_used_min": 109.567,
+              "time_min": 313.05,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 108.659,
+              "qtime_used_min": 131.341,
+              "time_min": 375.26,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 92.356,
+              "qtime_used_min": 147.644,
+              "time_min": 421.84,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 86.536,
+              "qtime_used_min": 153.464,
+              "time_min": 438.47,
+              "tool_id": "TOOL_1"
+            }
+          ]
+        }
+      ],
+      "lots_processed": 16,
+      "metrology_delay_markers": [
+        {
+          "delay_min": 90.0,
+          "lot_id": "LOT_A",
+          "time_min": 154.0
+        },
+        {
+          "delay_min": 90.0,
+          "lot_id": "LOT_A",
+          "time_min": 282.21000000000004
+        },
+        {
+          "delay_min": 90.0,
+          "lot_id": "LOT_A",
+          "time_min": 396.42
+        },
+        {
+          "delay_min": 90.0,
+          "lot_id": "LOT_A",
+          "time_min": 514.63
+        }
+      ],
+      "metrology_delay_min": 90.0,
+      "observability_risk_index": 0.0,
+      "q_over_threshold": [
+        {
+          "limit_min": 240.0,
+          "lot_id": "LOT_A",
+          "qtime_min": 320.21,
+          "time_min": 126.21
+        },
+        {
+          "limit_min": 240.0,
+          "lot_id": "LOT_A",
+          "qtime_min": 441.42,
+          "time_min": 247.42
+        },
+        {
+          "limit_min": 240.0,
+          "lot_id": "LOT_A",
+          "qtime_min": 557.63,
+          "time_min": 363.63
+        }
+      ],
+      "qtime_risk_index": 3.4963,
+      "tail_risk_index": 0.011,
+      "throughput_delta_pct": 0.0,
+      "tool_utilization": 0.250267
+    },
+    "factory_scene": {
+      "best_route": [
+        "STOCKER_A",
+        "ETCH_1",
+        "METRO_1",
+        "STOCKER_B"
+      ],
+      "congestion_zones": [
+        {
+          "center_xy": [
+            4,
+            1
+          ],
+          "radius": 0.85,
+          "reason": "metrology queue pressure",
+          "severity": 0.55775,
+          "zone_id": "Z_METRO"
+        },
+        {
+          "center_xy": [
+            2,
+            1
+          ],
+          "radius": 0.75,
+          "reason": "shared stocker to etch transport edge",
+          "severity": 0.4074,
+          "zone_id": "Z_ETCH_BUFFER"
+        }
+      ],
+      "domain": "factory_scene",
+      "edge_count": 5,
+      "edges": [
+        {
+          "cost": 3.485,
+          "from": "STOCKER_A",
+          "to": "ETCH_1"
+        },
+        {
+          "cost": 2.97,
+          "from": "ETCH_1",
+          "to": "METRO_1"
+        },
+        {
+          "cost": 4.179,
+          "from": "ETCH_1",
+          "to": "CVD_1"
+        },
+        {
+          "cost": 3.285,
+          "from": "CVD_1",
+          "to": "STOCKER_B"
+        },
+        {
+          "cost": 3.0245,
+          "from": "METRO_1",
+          "to": "STOCKER_B"
+        }
+      ],
+      "node_count": 5,
+      "nodes": [
+        {
+          "id": "STOCKER_A",
+          "kind": "stocker",
+          "xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "ETCH_1",
+          "kind": "tool",
+          "xy": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "METRO_1",
+          "kind": "metrology",
+          "xy": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "CVD_1",
+          "kind": "tool",
+          "xy": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "STOCKER_B",
+          "kind": "stocker",
+          "xy": [
+            5,
+            5
+          ]
+        }
+      ],
+      "openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+      "qtime_routing_multiplier": 1.16975,
+      "route_congestion_index": 0.485,
+      "route_cost": 9.4795,
+      "route_delay_min": 20.28139,
+      "route_segments": [
+        {
+          "cost": 3.485,
+          "delay_min": 7.456157,
+          "from": "STOCKER_A",
+          "from_xy": [
+            0,
+            0
+          ],
+          "segment_id": "R01",
+          "to": "ETCH_1",
+          "to_xy": [
+            2,
+            1
+          ]
+        },
+        {
+          "cost": 2.97,
+          "delay_min": 6.354315,
+          "from": "ETCH_1",
+          "from_xy": [
+            2,
+            1
+          ],
+          "segment_id": "R02",
+          "to": "METRO_1",
+          "to_xy": [
+            4,
+            1
+          ]
+        },
+        {
+          "cost": 3.0245,
+          "delay_min": 6.470918,
+          "from": "METRO_1",
+          "from_xy": [
+            4,
+            1
+          ],
+          "segment_id": "R03",
+          "to": "STOCKER_B",
+          "to_xy": [
+            5,
+            5
+          ]
+        }
+      ],
+      "selected_route": [
+        "STOCKER_A",
+        "ETCH_1",
+        "METRO_1",
+        "STOCKER_B"
+      ]
+    }
+  },
+  "constraints": {
+    "qtime_limit_min": 240,
+    "real_production_control_allowed": false
+  },
+  "cross_twin_coupling": [
+    {
+      "from": "factory.route_congestion",
+      "to": "fab.qtime_risk",
+      "value": 1.16975
+    }
+  ],
+  "engine_provenance": [
+    {
+      "canonical_parent": "S03",
+      "code_sha256": "99032b3848e94aa1863529c91620494ab283cabe8dccb89a299ff54d72a3043b",
+      "command": "python -B -m twin_core.scenario_runner --engine fab_operation_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "fab_operation_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "55be6b6f9f663117ffc15bc1d4b1f51fac29218257a0da91ee92ab0b1ffab5a4",
+      "metric_lineage_path": "outputs/metric_lineage/fab_operation_twin-S03-55be6b6f9f.json",
+      "metric_lineage_sha256": "72ded9cbeb490871c6dd9aa17859cb68f349cc3a0c52e9d03001e8ad97a86913",
+      "parsed_output_path": "outputs/engine_parsed/fab_operation_twin-S03-55be6b6f9f.json",
+      "parsed_output_sha256": "40cd2d9de7479cd54159ea932d713f5bf4ae0b56a3b13c563ce0d30aa52f5cbc",
+      "raw_output_path": "outputs/engine_raw/fab_operation_twin-S03-55be6b6f9f.json",
+      "raw_output_sha256": "3f60b8626b6080f040fad41217ab70747fde6231afbe0c1c305bd37806a4e6d7",
+      "relative_cwd": ".",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f",
+      "scenario_family": "S03",
+      "scenario_id": "S03",
+      "seed": 303,
+      "status": "REAL_INTERNAL_RUN"
+    },
+    {
+      "canonical_parent": "S03",
+      "code_sha256": "47b664b354ec1d0425aaadf5e087de8c9d254148c4a62e0b425ce9f0d9acbee1",
+      "command": "python -B -m twin_core.scenario_runner --engine factory_scene_routing_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "factory_scene_routing_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "711b3bc7e8e6398de976d84917f86e4e2f78d37d15c1bda8659fa28a9bebf816",
+      "metric_lineage_path": "outputs/metric_lineage/factory_scene_routing_twin-S03-711b3bc7e8.json",
+      "metric_lineage_sha256": "f2b5c4f1f68752e9304ab4b8f38abe023f42232aab593f08fbd029129714ae76",
+      "parsed_output_path": "outputs/engine_parsed/factory_scene_routing_twin-S03-711b3bc7e8.json",
+      "parsed_output_sha256": "84d298d5f18f4e85c05a1432c954437d9689b8cd8413a4bd12294b4da8b87fbd",
+      "raw_output_path": "outputs/engine_raw/factory_scene_routing_twin-S03-711b3bc7e8.json",
+      "raw_output_sha256": "2dce0584286f04c36880e89fd8e3debe432f4ba5e8bcbc5a93a537dd483c8cba",
+      "relative_cwd": ".",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8",
+      "scenario_family": "S03",
+      "scenario_id": "S03",
+      "seed": 303,
+      "status": "REAL_INTERNAL_RUN"
+    }
+  ],
+  "engine_run_ids": [
+    "fab_operation_twin-S03-55be6b6f9f",
+    "factory_scene_routing_twin-S03-711b3bc7e8"
+  ],
+  "input_hash": "fc8df64e5fd78309f589c6ab2e8458bc505e3d5fc22501540df3186a65cdd336",
+  "metric_lineage": {
+    "fab_operation.avg_defect_delta_pct": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.local_dispatch_score": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.lot_a_max_qtime_min": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.lots_processed": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.metrology_delay_min": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.observability_risk_index": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.qtime_risk_index": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.tail_risk_index": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.throughput_delta_pct": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "fab_operation.tool_utilization": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-S03-55be6b6f9f"
+    },
+    "factory_scene.edge_count": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    },
+    "factory_scene.node_count": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    },
+    "factory_scene.openusd_like_export_path": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    },
+    "factory_scene.qtime_routing_multiplier": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    },
+    "factory_scene.route_congestion_index": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    },
+    "factory_scene.route_cost": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    },
+    "factory_scene.route_delay_min": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-S03-711b3bc7e8"
+    }
+  },
+  "packet_sha256": "5ec73b0bab57aeafb3ae32b03a0bc13fe846d65c496e967d4997a894b212df90",
+  "public_tool_receipts": [
+    {
+      "reason": "optional heavy tool not installed; no mock substituted",
+      "receipt_path": "outputs/public_tool_receipts/cacti_optional.json",
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "cacti_optional"
+    },
+    {
+      "reason": "optional heavy tool not installed; no mock substituted",
+      "receipt_path": "outputs/public_tool_receipts/dramsim3_optional.json",
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "dramsim3_optional"
+    },
+    {
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "ngspice",
+        "-b",
+        "public_tool_runs/ngspice/netlists/read_path_charge_sharing.sp",
+        "-o",
+        "outputs/public_tool_receipts/ngspice_native.log"
+      ],
+      "environment": "current-subprocess-attempt",
+      "executable": "ngspice",
+      "executable_path": null,
+      "exit_status": 0,
+      "input_sha256": "e2b3118c7dd20dffce5d5db8ecd684c544073a218caa0f81a546d7e5f1295657",
+      "log_path": "outputs/public_tool_receipts/ngspice_attempt.log",
+      "log_sha256": "d6f0317c9e75b6880b35c88b78f01af252969d334a62c4363e0d8a2e8cfe4abc",
+      "parsed_metrics_path": "outputs/public_tool_receipts/ngspice_parsed.json",
+      "parsed_output_path": "outputs/public_tool_receipts/ngspice_parsed.json",
+      "parsed_output_sha256": "ff153015c39d58c9c8beb9c894df196a612784d65b4bb16982f40aa1fa995e39",
+      "parser_status": "EXPLAINED",
+      "raw_output_path": "outputs/public_tool_receipts/ngspice_raw.json",
+      "raw_output_sha256": "54869734a92dd0155306ae12d0ef693471386c0e2fcd20cb972861e0f0c537cb",
+      "reason": "ngspice executable unavailable",
+      "relative_cwd": ".",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_path": "outputs/public_tool_receipts/ngspice_stderr.txt",
+      "stderr_sha256": "fead963e22eacddd9bb75b9fe2a79d35c89db30d4f5160d92c2370de4a416206",
+      "stdout_path": "outputs/public_tool_receipts/ngspice_stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tool": "ngspice"
+    },
+    {
+      "parser_status": "EXPLAINED",
+      "reason": "ngspice executable unavailable",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_preview": "ngspice was not found on PATH; no proxy output was promoted to REAL_EXTERNAL_RUN.\n",
+      "stdout_preview": "",
+      "tool": "ngspice"
+    },
+    {
+      "attempted": true,
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "ngspice",
+        "-b",
+        "public_tool_runs/ngspice/netlists/read_path_charge_sharing.sp",
+        "-o",
+        "outputs/public_tool_receipts/ngspice_native.log"
+      ],
+      "executable_path": null,
+      "log_path": "outputs/public_tool_receipts/ngspice_attempt.log",
+      "reason": "ngspice executable unavailable",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_path": "outputs/public_tool_receipts/ngspice_stderr.txt",
+      "stdout_path": "outputs/public_tool_receipts/ngspice_stdout.txt",
+      "tool": "ngspice"
+    },
+    {
+      "reason": "optional heavy tool not installed; no mock substituted",
+      "receipt_path": "outputs/public_tool_receipts/openroad_optional.json",
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "openroad_optional"
+    },
+    {
+      "reason": "optional heavy tool not installed; no mock substituted",
+      "receipt_path": "outputs/public_tool_receipts/ramulator2_optional.json",
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "ramulator2_optional"
+    },
+    {
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "python",
+        "-B",
+        "public_tool_runs/simpy/run_simpy_fab.py"
+      ],
+      "environment": "python-public-package-current-run",
+      "exit_status": 0,
+      "input_sha256": "a8d7bbd14b525e3d3b01203a58c78c737ccc613f169591fc5154c76d064e0a7b",
+      "parsed_metrics_path": "outputs/public_tool_receipts/simpy_parsed.json",
+      "parsed_output_path": "outputs/public_tool_receipts/simpy_parsed.json",
+      "parsed_output_sha256": "134fc1f19472dedaa2e4fd6b3329191d54a3f99b031638b4ab1bc38d9f89cf55",
+      "parser_status": "EXPLAINED",
+      "raw_output_path": "outputs/public_tool_receipts/simpy_raw.json",
+      "raw_output_sha256": "d784e867e630d276b6e9a667608bce709329b854b5d166b4f9b325c17279d831",
+      "reason": "simpy import failed: ModuleNotFoundError: No module named 'simpy'",
+      "relative_cwd": ".",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "simpy"
+    },
+    {
+      "parser_status": "EXPLAINED",
+      "reason": "simpy import failed: ModuleNotFoundError: No module named 'simpy'",
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "simpy"
+    },
+    {
+      "attempted": true,
+      "reason": "simpy import failed: ModuleNotFoundError: No module named 'simpy'",
+      "status": "EXPLAINED_UNAVAILABLE",
+      "tool": "simpy"
+    },
+    {
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "verilator",
+        "--lint-only",
+        "public_tool_runs/rtl/rtl/hbm_policy_controller.v"
+      ],
+      "environment": "current-subprocess-attempt",
+      "executable": "verilator",
+      "executable_path": null,
+      "exit_status": 0,
+      "input_sha256": "d401faba303cd003a04edc013a37b65268ce86a9acb0e9c141962fe1b5fbf570",
+      "log_path": "outputs/public_tool_receipts/verilator_attempt.log",
+      "log_sha256": "50fa17deb082f4f10dc2ec33d8adbcc9c1570676a481eaa1ba19b9b7f3fae499",
+      "parsed_metrics_path": "outputs/public_tool_receipts/verilator_parsed.json",
+      "parsed_output_path": "outputs/public_tool_receipts/verilator_parsed.json",
+      "parsed_output_sha256": "82d1972f6d94efc72c8b885131100c01afa457df08378395000ec0d18f9c2f6d",
+      "parser_status": "EXPLAINED",
+      "raw_output_path": "outputs/public_tool_receipts/verilator_raw.json",
+      "raw_output_sha256": "83f2f1071f80a685e52d30a9f4bfe542c6115d5ca38f1ffea0c54bbd6ba76ccd",
+      "reason": "verilator executable unavailable",
+      "relative_cwd": ".",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_path": "outputs/public_tool_receipts/verilator_stderr.txt",
+      "stderr_sha256": "b1cf47d70f1a9ba38bb7752a434cf3406362469cab99e810c318c5745bf715c8",
+      "stdout_path": "outputs/public_tool_receipts/verilator_stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tool": "verilator"
+    },
+    {
+      "parser_status": "EXPLAINED",
+      "reason": "verilator executable unavailable",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_preview": "verilator was not found on PATH; no proxy output was promoted to REAL_EXTERNAL_RUN.\n",
+      "stdout_preview": "",
+      "tool": "verilator"
+    },
+    {
+      "attempted": true,
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "verilator",
+        "--lint-only",
+        "public_tool_runs/rtl/rtl/hbm_policy_controller.v"
+      ],
+      "executable_path": null,
+      "log_path": "outputs/public_tool_receipts/verilator_attempt.log",
+      "reason": "verilator executable unavailable",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_path": "outputs/public_tool_receipts/verilator_stderr.txt",
+      "stdout_path": "outputs/public_tool_receipts/verilator_stdout.txt",
+      "tool": "verilator"
+    },
+    {
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "yosys",
+        "-p",
+        "read_verilog public_tool_runs/rtl/rtl/hbm_policy_controller.v; synth; stat"
+      ],
+      "environment": "current-subprocess-attempt",
+      "executable": "yosys",
+      "executable_path": null,
+      "exit_status": 0,
+      "input_sha256": "372588e4e07e789879c5d1b8b1e605a37c65577a627e59759e40058d8e04a6a2",
+      "log_path": "outputs/public_tool_receipts/yosys_attempt.log",
+      "log_sha256": "3a959227a2a194f0a8475cf095a2ee603960b523de73c887bde2157439f115a8",
+      "parsed_metrics_path": "outputs/public_tool_receipts/yosys_parsed.json",
+      "parsed_output_path": "outputs/public_tool_receipts/yosys_parsed.json",
+      "parsed_output_sha256": "e55c6f70f965e3a6fbec08f83f0838462ef7edb30a570e56b05ef2ed8cba91cb",
+      "parser_status": "EXPLAINED",
+      "raw_output_path": "outputs/public_tool_receipts/yosys_raw.json",
+      "raw_output_sha256": "400236fd5bf9ae1d52c3fac383cdfd88f87d8176205e578504eb3ec6f0e5cf3b",
+      "reason": "yosys executable unavailable",
+      "relative_cwd": ".",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_path": "outputs/public_tool_receipts/yosys_stderr.txt",
+      "stderr_sha256": "b398e32763603038d98a0a12fc2fbc3a32d614b54e6692486dcdcf5f1697c755",
+      "stdout_path": "outputs/public_tool_receipts/yosys_stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tool": "yosys"
+    },
+    {
+      "parser_status": "EXPLAINED",
+      "reason": "yosys executable unavailable",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_preview": "yosys was not found on PATH; no proxy output was promoted to REAL_EXTERNAL_RUN.\n",
+      "stdout_preview": "",
+      "tool": "yosys"
+    },
+    {
+      "attempted": true,
+      "claim_boundary": {
+        "public_tool_proxy_only": true,
+        "real_signoff_allowed": false
+      },
+      "command": [
+        "yosys",
+        "-p",
+        "read_verilog public_tool_runs/rtl/rtl/hbm_policy_controller.v; synth; stat"
+      ],
+      "executable_path": null,
+      "log_path": "outputs/public_tool_receipts/yosys_attempt.log",
+      "reason": "yosys executable unavailable",
+      "returncode": null,
+      "status": "EXPLAINED_UNAVAILABLE",
+      "stderr_path": "outputs/public_tool_receipts/yosys_stderr.txt",
+      "stdout_path": "outputs/public_tool_receipts/yosys_stdout.txt",
+      "tool": "yosys"
+    }
+  ],
+  "question": "Did local dispatch optimization harm global fab flow or downstream Q-time trajectory?",
+  "scenario_family": "S03",
+  "scenario_id": "S03",
+  "schema_version": "hynix-v5-evidence-packet-1",
+  "title": "Fab Dispatch / Q-Time Global Flow",
+  "twin_scope": [
+    "fab_operation",
+    "factory_scene"
+  ],
+  "variant_id": null,
+  "visible_metrics": {
+    "fab_operation.avg_defect_delta_pct": 0.0,
+    "fab_operation.local_dispatch_score": 0.741267,
+    "fab_operation.lot_a_max_qtime_min": 557.63,
+    "fab_operation.lots_processed": 16,
+    "fab_operation.metrology_delay_min": 90.0,
+    "fab_operation.observability_risk_index": 0.0,
+    "fab_operation.qtime_risk_index": 3.4963,
+    "fab_operation.tail_risk_index": 0.011,
+    "fab_operation.throughput_delta_pct": 0.0,
+    "fab_operation.tool_utilization": 0.250267,
+    "factory_scene.edge_count": 5,
+    "factory_scene.node_count": 5,
+    "factory_scene.openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+    "factory_scene.qtime_routing_multiplier": 1.16975,
+    "factory_scene.route_congestion_index": 0.485,
+    "factory_scene.route_cost": 9.4795,
+    "factory_scene.route_delay_min": 20.28139
+  }
+}

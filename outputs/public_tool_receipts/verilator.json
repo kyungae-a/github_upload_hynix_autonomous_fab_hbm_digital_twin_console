@@ -1,0 +1,33 @@
+{
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "verilator",
+    "--lint-only",
+    "public_tool_runs/rtl/rtl/hbm_policy_controller.v"
+  ],
+  "environment": "current-subprocess-attempt",
+  "executable": "verilator",
+  "executable_path": null,
+  "exit_status": 0,
+  "input_sha256": "d401faba303cd003a04edc013a37b65268ce86a9acb0e9c141962fe1b5fbf570",
+  "log_path": "outputs/public_tool_receipts/verilator_attempt.log",
+  "log_sha256": "50fa17deb082f4f10dc2ec33d8adbcc9c1570676a481eaa1ba19b9b7f3fae499",
+  "parsed_metrics_path": "outputs/public_tool_receipts/verilator_parsed.json",
+  "parsed_output_path": "outputs/public_tool_receipts/verilator_parsed.json",
+  "parsed_output_sha256": "82d1972f6d94efc72c8b885131100c01afa457df08378395000ec0d18f9c2f6d",
+  "parser_status": "EXPLAINED",
+  "raw_output_path": "outputs/public_tool_receipts/verilator_raw.json",
+  "raw_output_sha256": "83f2f1071f80a685e52d30a9f4bfe542c6115d5ca38f1ffea0c54bbd6ba76ccd",
+  "reason": "verilator executable unavailable",
+  "relative_cwd": ".",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "stderr_path": "outputs/public_tool_receipts/verilator_stderr.txt",
+  "stderr_sha256": "b1cf47d70f1a9ba38bb7752a434cf3406362469cab99e810c318c5745bf715c8",
+  "stdout_path": "outputs/public_tool_receipts/verilator_stdout.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tool": "verilator"
+}

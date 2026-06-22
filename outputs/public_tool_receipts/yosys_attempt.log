@@ -1,0 +1,4 @@
+tool=yosys
+command=yosys -p read_verilog public_tool_runs/rtl/rtl/hbm_policy_controller.v; synth; stat
+status=EXPLAINED_UNAVAILABLE
+reason=yosys executable unavailable

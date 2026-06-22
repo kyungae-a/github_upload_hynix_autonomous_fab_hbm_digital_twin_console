@@ -1,0 +1,5 @@
+project_doc_max_bytes = 196608
+
+[agents]
+max_threads = 8
+max_depth = 2

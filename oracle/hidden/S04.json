@@ -1,0 +1,5 @@
+{
+  "failure_mode": "sensor drift masks chamber degradation until delayed metrology confirms a systematic shift",
+  "label": "PLAUSIBLE_BUT_INCOMPLETE",
+  "scenario_id": "S04"
+}

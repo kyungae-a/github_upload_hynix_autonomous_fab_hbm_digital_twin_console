@@ -1,0 +1,11 @@
+{
+  "canonical_parent": "S06",
+  "challenge": "Execution pass is not product signoff.",
+  "challenge_emitted": true,
+  "challenge_type": "proxy_signoff_boundary",
+  "scenario_family": "S06",
+  "scenario_id": "S06",
+  "schema_version": "hynix-v5-red-team-1",
+  "target_decision": "S06-JDG-001",
+  "visible_only": true
+}

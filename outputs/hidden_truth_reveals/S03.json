@@ -1,0 +1,7 @@
+{
+  "append_only": true,
+  "failure_mode": "local LOT-B dispatch pushes LOT-A into a downstream q-over transition",
+  "post_reveal_label": "PLAUSIBLE_BUT_INCOMPLETE",
+  "scenario_id": "S03",
+  "schema_version": "hynix-v5-hidden-truth-reveal-1"
+}

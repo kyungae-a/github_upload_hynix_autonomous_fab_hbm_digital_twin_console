@@ -1,0 +1,5 @@
+{
+  "failure_mode": "candidate A violates hot-corner retention and sense-margin constraints",
+  "label": "PLAUSIBLE_BUT_WRONG",
+  "scenario_id": "S02"
+}

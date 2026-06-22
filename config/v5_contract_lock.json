@@ -1,0 +1,26 @@
+{
+  "canonical_scenario_count": 6,
+  "final_status": "READY_FOR_GITHUB_REVIEW",
+  "minimum_real_internal_run_engines": 3,
+  "minimum_real_public_tool_runs": 3,
+  "minimum_variant_count": 30,
+  "required_core_twins": [
+    "HBM_MEMORY_SYSTEM_TWIN",
+    "CIRCUIT_PHYSICAL_PROXY_TWIN",
+    "FAB_OPERATION_TWIN",
+    "FACTORY_SCENE_ROUTING_TWIN"
+  ],
+  "required_screenshots": [
+    "architecture.png",
+    "fab_timeline.png",
+    "hbm_workload.png",
+    "factory_scene.png",
+    "public_tool_evidence.png",
+    "ai_audit_flow.png",
+    "hidden_truth_reveal.png",
+    "hynix_alignment.png"
+  ],
+  "schema_version": "hynix-public-model-semiconductor-decision-twin-v5-contract-lock-1",
+  "target_real_internal_run_engines": 4,
+  "target_repository": "hynix_public_model_semiconductor_decision_twin"
+}

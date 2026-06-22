@@ -1,0 +1,9 @@
+{
+  "canonical_parent": "S01",
+  "recommended_supervisor_action": "APPROVE_FOR_SIMULATION_REVIEW",
+  "scenario_family": "S01",
+  "scenario_id": "S01",
+  "schema_version": "hynix-v5-meta-judge-1",
+  "visible_logic_status": "VISIBLE_LOGIC_PLAUSIBLE_BUT_UNCHALLENGED",
+  "visible_only": true
+}

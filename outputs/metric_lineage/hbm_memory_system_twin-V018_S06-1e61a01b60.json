@@ -1,0 +1,20 @@
+{
+  "bank_conflict_rate": "computed by HBM workload public model",
+  "display_metrics": "computed by HBM workload public model",
+  "fcfs_bandwidth_gbps": "computed by HBM workload public model",
+  "frfcfs_bandwidth_gbps": "computed by HBM workload public model",
+  "latency_mean_ns": "computed by HBM workload public model",
+  "latency_p95_ns": "computed by HBM workload public model",
+  "policy_comparison": "computed by HBM workload public model",
+  "ppa_candidate_a_score": "computed by HBM workload public model",
+  "ppa_candidate_b_score": "computed by HBM workload public model",
+  "raw_metrics": "computed by HBM workload public model",
+  "recommended_policy": "computed by HBM workload public model",
+  "refresh_loss_pct": "computed by HBM workload public model",
+  "row_hit_rate": "computed by HBM workload public model",
+  "sustained_bandwidth_gbps": "computed by HBM workload public model",
+  "theoretical_bandwidth_gbps": "computed by HBM workload public model",
+  "thermal_pressure_index": "computed by HBM workload public model",
+  "turnaround_loss_pct": "computed by HBM workload public model",
+  "unit_notes": "computed by HBM workload public model"
+}

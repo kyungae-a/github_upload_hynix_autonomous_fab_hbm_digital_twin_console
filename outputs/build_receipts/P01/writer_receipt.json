@@ -1,0 +1,9 @@
+{
+  "changed_files": "see release manifest",
+  "limitations": "P11 requires a genuine GitHub Actions medium run on the exact commit.",
+  "p0_p1_findings": 0,
+  "phase": "P01",
+  "status": "PASS",
+  "title": "v5.4 product data contract, dashboard lifecycle, and current-run provenance",
+  "writer": "codex_parent_local_v5_4_transaction"
+}

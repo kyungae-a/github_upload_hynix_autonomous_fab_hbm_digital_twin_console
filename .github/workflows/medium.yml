@@ -1,0 +1,28 @@
+name: medium
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y ngspice yosys verilator
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -r requirements.txt
+      - run: make setup-medium demo-medium run-public-tools
+      - run: python -B scripts/generate_ci_run_manifest.py
+      - run: make dashboard screenshots validate validate-medium package-release verify-clean-unzip
+      - run: python -B scripts/finalize_v5_4_github_medium.py
+      - run: make dashboard screenshots validate validate-medium package-release verify-clean-unzip
+      - run: python -B scripts/verify_github_medium_artifact.py --artifact .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hynix-v5-4-medium-evidence
+          path: |
+            outputs/public_tool_evidence/ci_run_manifest.json
+            outputs/public_tool_receipts/
+            outputs/dashboard_data.json
+            screenshots/
+            release/

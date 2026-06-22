@@ -1,0 +1,8 @@
+{
+  "decision": "PASS",
+  "p0_p1_findings": 0,
+  "phase": "P09",
+  "reviewer": "deterministic_v5_4_local_validation_suite",
+  "status": "PASS",
+  "title": "Semantic validators and deliberate negative regression fixtures"
+}

@@ -1,0 +1,7 @@
+{
+  "append_only": true,
+  "failure_mode": "execution PASS is not design pass and never product signoff",
+  "post_reveal_label": "BLOCKED_BY_SUPERVISOR",
+  "scenario_id": "S06",
+  "schema_version": "hynix-v5-hidden-truth-reveal-1"
+}

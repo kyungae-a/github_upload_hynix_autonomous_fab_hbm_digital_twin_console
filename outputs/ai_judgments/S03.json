@@ -1,0 +1,36 @@
+{
+  "canonical_parent": "S03",
+  "confidence": 0.69,
+  "decision": "protect_lot_a_qtime_or_request_global_flow",
+  "decision_id": "S03-JDG-001",
+  "decision_rule_trace": [
+    {
+      "expr": "local 0.741267 qtime 3.4963",
+      "result": "protect_lot_a_qtime_or_request_global_flow"
+    }
+  ],
+  "hidden_access": false,
+  "profile": "EvidenceSensitiveRuleJudge",
+  "scenario_family": "S03",
+  "scenario_id": "S03",
+  "schema_version": "hynix-v5-ai-judgment-1",
+  "visible_evidence_used": [
+    "fab_operation.avg_defect_delta_pct",
+    "fab_operation.local_dispatch_score",
+    "fab_operation.lot_a_max_qtime_min",
+    "fab_operation.lots_processed",
+    "fab_operation.metrology_delay_min",
+    "fab_operation.observability_risk_index",
+    "fab_operation.qtime_risk_index",
+    "fab_operation.tail_risk_index",
+    "fab_operation.throughput_delta_pct",
+    "fab_operation.tool_utilization",
+    "factory_scene.edge_count",
+    "factory_scene.node_count",
+    "factory_scene.openusd_like_export_path",
+    "factory_scene.qtime_routing_multiplier",
+    "factory_scene.route_congestion_index",
+    "factory_scene.route_cost",
+    "factory_scene.route_delay_min"
+  ]
+}

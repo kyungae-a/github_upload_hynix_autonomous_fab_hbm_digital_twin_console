@@ -1,0 +1,179 @@
+{
+  "baseline_archive_sha256": "77c686267f70564585797e29a711162d7c47ae045343cc5f9ba6f3f071846e51",
+  "current_phase": "P19",
+  "final_gates": {
+    "dashboard": "PASS",
+    "demo-heavy": "PASS",
+    "demo-light": "PASS",
+    "demo-medium": "PASS",
+    "package-release": "PASS",
+    "run-canonical": "PASS",
+    "run-public-tools": "PASS",
+    "run-variants": "PASS",
+    "screenshots": "PASS",
+    "setup-light": "PASS",
+    "setup-medium": "PASS",
+    "test": "PASS",
+    "validate": "PASS",
+    "validate-medium": "PASS",
+    "verify": "PASS",
+    "verify-clean-unzip": "PASS"
+  },
+  "final_reviewers": {
+    "ai-governance-redteam": "PASS",
+    "release-reproducibility-redteam": "PASS",
+    "semiconductor-system-redteam": "PASS"
+  },
+  "phases": {
+    "P00": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P00/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Current v5.2 Baseline Audit, In-Place Upgrade Boundary, and Anti-Scaffold Inventory",
+      "writer_receipt": "outputs/build_receipts/P00/writer_receipt.json"
+    },
+    "P01": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P01/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Shared Product Contracts, Schemas, Units, Hashing, Run Receipts, and Artifact Lifecycle",
+      "writer_receipt": "outputs/build_receipts/P01/writer_receipt.json"
+    },
+    "P02": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P02/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Reviewer Journey, README/START_HERE Rewrite, and Real Frontend Application Shell",
+      "writer_receipt": "outputs/build_receipts/P02/writer_receipt.json"
+    },
+    "P03": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P03/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "HBM Workload Generator, Stack Topology, Address Mapping, and Deterministic Request Trace",
+      "writer_receipt": "outputs/build_receipts/P03/writer_receipt.json"
+    },
+    "P04": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P04/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "HBM Scheduler, Refresh, Turnaround, Thermal Model, Policy Comparison, Metrics, and Product Page",
+      "writer_receipt": "outputs/build_receipts/P04/writer_receipt.json"
+    },
+    "P05": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P05/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Circuit / Physical Proxy Twin: Charge Sharing, Sense/Retention Margin, PVT Sweep, and Signoff Semantics",
+      "writer_receipt": "outputs/build_receipts/P05/writer_receipt.json"
+    },
+    "P06": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P06/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Current-Run ngspice, Yosys, Verilator, and SimPy Public-Tool Evidence",
+      "writer_receipt": "outputs/build_receipts/P06/writer_receipt.json"
+    },
+    "P07": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P07/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Fab Operation Twin Domain Model and SimPy Event Engine",
+      "writer_receipt": "outputs/build_receipts/P07/writer_receipt.json"
+    },
+    "P08": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P08/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Fab Dispatch, Q-Time, Metrology Lag, Sensor Drift, Maintenance, Yield-Tail Risk, and Product Timeline",
+      "writer_receipt": "outputs/build_receipts/P08/writer_receipt.json"
+    },
+    "P09": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P09/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Factory Scene / Routing Twin, 2D Layout, Congestion, Dijkstra/A*, OpenUSD-Like Export, and Map",
+      "writer_receipt": "outputs/build_receipts/P09/writer_receipt.json"
+    },
+    "P10": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P10/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Six Canonical Scenarios, Cross-Twin Orchestration, Evidence Packets, and Metric Lineage",
+      "writer_receipt": "outputs/build_receipts/P10/writer_receipt.json"
+    },
+    "P11": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P11/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Evidence-Sensitive AI Judge, Red-Team Partial Miss, Meta Judge, Claim-Boundary Supervisor, Freeze, and Hidden Truth Reveal",
+      "writer_receipt": "outputs/build_receipts/P11/writer_receipt.json"
+    },
+    "P12": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P12/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "60+ Semantic Scenario Variants, Family-Based Routing, Judge Sensitivity, and Red-Team Robustness",
+      "writer_receipt": "outputs/build_receipts/P12/writer_receipt.json"
+    },
+    "P13": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P13/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Dashboard Data Builder, Evidence Explorer API, Cross-Link Index, and Freshness Contract",
+      "writer_receipt": "outputs/build_receipts/P13/writer_receipt.json"
+    },
+    "P14": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P14/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Nine-Page Evidence Explorer Console with Charts, Timelines, Maps, Tables, and Decision Flow",
+      "writer_receipt": "outputs/build_receipts/P14/writer_receipt.json"
+    },
+    "P15": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P15/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Real Browser Screenshot Capture, Visual Evidence Manifest, and Screenshot Quality Regression",
+      "writer_receipt": "outputs/build_receipts/P15/writer_receipt.json"
+    },
+    "P16": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P16/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Docker, Docker Compose, Devcontainer, GitHub Actions, and Reproducible Medium Profile",
+      "writer_receipt": "outputs/build_receipts/P16/writer_receipt.json"
+    },
+    "P17": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P17/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Semantic Validators, Behavioral Tests, and Deliberate Negative Regression Fixtures",
+      "writer_receipt": "outputs/build_receipts/P17/writer_receipt.json"
+    },
+    "P18": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P18/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "GitHub Product Documentation, Hynix Alignment, Public-Model Boundaries, and Reviewer/Interview Journey",
+      "writer_receipt": "outputs/build_receipts/P18/writer_receipt.json"
+    },
+    "P19": {
+      "open_p0_p1": 0,
+      "reviewer_receipt": "outputs/build_receipts/P19/reviewer_receipt.json",
+      "status": "PASS",
+      "title": "Final Make Transaction, Deterministic Release, Clean-Unzip Verification, and Independent Red Team",
+      "writer_receipt": "outputs/build_receipts/P19/writer_receipt.json"
+    }
+  },
+  "product_root": ".",
+  "release": {
+    "archive": "release/hynix-autonomous-fab-hbm-digital-twin-console.zip",
+    "archive_sha256": "recorded_in_release_sidecar",
+    "clean_unzip_status": "PASS",
+    "external_manifest": "release/hynix-autonomous-fab-hbm-digital-twin-console.release_manifest.json"
+  },
+  "schema_version": "hynix-public-model-v5-build-state-compat-1",
+  "source_spec_sha256": "28380c8d45aa8da6ff70f3230a94098c8ec806724e0269f6d92ddb041d4f9617",
+  "status": "READY_FOR_GITHUB_REVIEW"
+}

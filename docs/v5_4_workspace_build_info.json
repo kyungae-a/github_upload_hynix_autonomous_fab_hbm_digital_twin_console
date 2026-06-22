@@ -1,0 +1,8 @@
+{
+  "baseline_archive_sha256": "0979456db809d195bcf4f66739c973ff7f47ee4374f71d0c6b533647ca1c177c",
+  "current_phase": "P00",
+  "initial_state": "REWORK_REQUIRED",
+  "schema_version": "hynix-v5.4-codex-workspace-1",
+  "upgrade_mode": "IN_PLACE_NO_NESTED_CLONE",
+  "workflow_manifest_path": "docs/v5_4_workflow_pack_manifest.json"
+}

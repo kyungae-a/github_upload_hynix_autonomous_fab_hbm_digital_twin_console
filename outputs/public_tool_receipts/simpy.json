@@ -1,0 +1,25 @@
+{
+  "claim_boundary": {
+    "public_tool_proxy_only": true,
+    "real_signoff_allowed": false
+  },
+  "command": [
+    "python",
+    "-B",
+    "public_tool_runs/simpy/run_simpy_fab.py"
+  ],
+  "environment": "python-public-package-current-run",
+  "exit_status": 0,
+  "input_sha256": "a8d7bbd14b525e3d3b01203a58c78c737ccc613f169591fc5154c76d064e0a7b",
+  "parsed_metrics_path": "outputs/public_tool_receipts/simpy_parsed.json",
+  "parsed_output_path": "outputs/public_tool_receipts/simpy_parsed.json",
+  "parsed_output_sha256": "134fc1f19472dedaa2e4fd6b3329191d54a3f99b031638b4ab1bc38d9f89cf55",
+  "parser_status": "EXPLAINED",
+  "raw_output_path": "outputs/public_tool_receipts/simpy_raw.json",
+  "raw_output_sha256": "d784e867e630d276b6e9a667608bce709329b854b5d166b4f9b325c17279d831",
+  "reason": "simpy import failed: ModuleNotFoundError: No module named 'simpy'",
+  "relative_cwd": ".",
+  "returncode": null,
+  "status": "EXPLAINED_UNAVAILABLE",
+  "tool": "simpy"
+}

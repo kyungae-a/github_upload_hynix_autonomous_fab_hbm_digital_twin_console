@@ -1,0 +1,927 @@
+{
+  "canonical_parent": "S04",
+  "claim_limits": [
+    "public_model_only",
+    "requires_real_domain_signoff"
+  ],
+  "computed_state": {
+    "circuit_physical": {
+      "charge_share_delta_v_mv": 103.448276,
+      "domain": "circuit_physical",
+      "external_report_word": "PUBLIC_PROXY_REPORT",
+      "proxy_design_pass": true,
+      "proxy_execution_pass": true,
+      "real_signoff_claim_allowed": false,
+      "retention_ms": 256.0,
+      "sense_margin_mv": 48.448276,
+      "sense_margin_p05_mv": 44.668276,
+      "tns_ns": 0,
+      "wns_ns": 0.04
+    },
+    "fab_operation": {
+      "avg_defect_delta_pct": 0.0,
+      "dispatch_markers": [
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_A",
+          "time_min": 0.0,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 17.0,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 46.22,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 68.22,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_A",
+          "time_min": 94.94,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 111.44,
+          "tool_id": "TOOL_1"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 143.16,
+          "tool_id": "TOOL_0"
+        },
+        {
+          "event": "dispatch",
+          "lot_id": "LOT_B",
+          "time_min": 155.66,
+          "tool_id": "TOOL_1"
+        }
+      ],
+      "domain": "fab_operation",
+      "events": [
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 0.0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 0.0,
+          "tool": 0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 17.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 17.0,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 34.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 46.22,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 47.72,
+          "tool": 0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 51.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 68.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 68.22,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 69.72,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 85.0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 94.94,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 94.94,
+          "tool": 0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 102.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 111.44,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 112.94,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 119.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 136.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 143.16,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 144.66,
+          "tool": 0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 153.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 155.66,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 157.16,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 170.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 187.0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 193.88,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 193.88,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 200.88,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 202.38,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "A",
+          "time": 204.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 221.0
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 238.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 244.1,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 245.6,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 247.1,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 248.6,
+          "tool": 1
+        },
+        {
+          "event": "ARRIVE",
+          "lot": "B",
+          "time": 255.0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 295.32,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 295.82,
+          "tool": 1
+        },
+        {
+          "event": "START",
+          "lot": "A",
+          "time": 295.82,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 296.82,
+          "tool": 0
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 339.04,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "A",
+          "time": 340.54,
+          "tool": 1
+        },
+        {
+          "event": "START",
+          "lot": "B",
+          "time": 343.54,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 345.04,
+          "tool": 0
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 384.76,
+          "tool": 1
+        },
+        {
+          "event": "END",
+          "lot": "B",
+          "time": 394.26,
+          "tool": 0
+        }
+      ],
+      "local_dispatch_score": 0.405,
+      "lot_a_max_qtime_min": 399.82,
+      "lot_qtime_trajectories": [
+        {
+          "lot_id": "LOT_A",
+          "points": [
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 136.0,
+              "qtime_used_min": 104.0,
+              "time_min": 0.0,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 41.06,
+              "qtime_used_min": 198.94,
+              "time_min": 94.94,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 0.0,
+              "qtime_used_min": 297.88,
+              "time_min": 193.88,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_A",
+              "qtime_remaining_min": 0.0,
+              "qtime_used_min": 399.82,
+              "time_min": 295.82,
+              "tool_id": "TOOL_1"
+            }
+          ]
+        },
+        {
+          "lot_id": "LOT_B",
+          "points": [
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 234.05,
+              "qtime_used_min": 5.95,
+              "time_min": 17.0,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 223.823,
+              "qtime_used_min": 16.177,
+              "time_min": 46.22,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 216.123,
+              "qtime_used_min": 23.877,
+              "time_min": 68.22,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 200.996,
+              "qtime_used_min": 39.004,
+              "time_min": 111.44,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 189.894,
+              "qtime_used_min": 50.106,
+              "time_min": 143.16,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 185.519,
+              "qtime_used_min": 54.481,
+              "time_min": 155.66,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 169.692,
+              "qtime_used_min": 70.308,
+              "time_min": 200.88,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 154.565,
+              "qtime_used_min": 85.435,
+              "time_min": 244.1,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 153.515,
+              "qtime_used_min": 86.485,
+              "time_min": 247.1,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 136.638,
+              "qtime_used_min": 103.362,
+              "time_min": 295.32,
+              "tool_id": "TOOL_0"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 121.336,
+              "qtime_used_min": 118.664,
+              "time_min": 339.04,
+              "tool_id": "TOOL_1"
+            },
+            {
+              "lot_id": "LOT_B",
+              "qtime_remaining_min": 119.761,
+              "qtime_used_min": 120.239,
+              "time_min": 343.54,
+              "tool_id": "TOOL_0"
+            }
+          ]
+        }
+      ],
+      "lots_processed": 16,
+      "metrology_delay_markers": [
+        {
+          "delay_min": 144.48,
+          "lot_id": "LOT_A",
+          "time_min": 192.2
+        },
+        {
+          "delay_min": 144.48,
+          "lot_id": "LOT_A",
+          "time_min": 289.14
+        },
+        {
+          "delay_min": 144.48,
+          "lot_id": "LOT_A",
+          "time_min": 390.08
+        },
+        {
+          "delay_min": 144.48,
+          "lot_id": "LOT_A",
+          "time_min": 485.02
+        }
+      ],
+      "metrology_delay_min": 144.48,
+      "observability_risk_index": 0.409,
+      "q_over_threshold": [
+        {
+          "limit_min": 240.0,
+          "lot_id": "LOT_A",
+          "qtime_min": 297.88,
+          "time_min": 193.88
+        },
+        {
+          "limit_min": 240.0,
+          "lot_id": "LOT_A",
+          "qtime_min": 399.82,
+          "time_min": 295.82
+        }
+      ],
+      "qtime_risk_index": 1.9182,
+      "tail_risk_index": 0.011,
+      "throughput_delta_pct": 0.0,
+      "tool_utilization": 0.24683
+    },
+    "factory_scene": {
+      "best_route": [
+        "STOCKER_A",
+        "ETCH_1",
+        "METRO_1",
+        "STOCKER_B"
+      ],
+      "congestion_zones": [
+        {
+          "center_xy": [
+            4,
+            1
+          ],
+          "radius": 0.85,
+          "reason": "metrology queue pressure",
+          "severity": 0.322,
+          "zone_id": "Z_METRO"
+        },
+        {
+          "center_xy": [
+            2,
+            1
+          ],
+          "radius": 0.75,
+          "reason": "shared stocker to etch transport edge",
+          "severity": 0.2352,
+          "zone_id": "Z_ETCH_BUFFER"
+        }
+      ],
+      "domain": "factory_scene",
+      "edge_count": 5,
+      "edges": [
+        {
+          "cost": 3.28,
+          "from": "STOCKER_A",
+          "to": "ETCH_1"
+        },
+        {
+          "cost": 2.56,
+          "from": "ETCH_1",
+          "to": "METRO_1"
+        },
+        {
+          "cost": 3.892,
+          "from": "ETCH_1",
+          "to": "CVD_1"
+        },
+        {
+          "cost": 3.08,
+          "from": "CVD_1",
+          "to": "STOCKER_B"
+        },
+        {
+          "cost": 2.676,
+          "from": "METRO_1",
+          "to": "STOCKER_B"
+        }
+      ],
+      "node_count": 5,
+      "nodes": [
+        {
+          "id": "STOCKER_A",
+          "kind": "stocker",
+          "xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "ETCH_1",
+          "kind": "tool",
+          "xy": [
+            2,
+            1
+          ]
+        },
+        {
+          "id": "METRO_1",
+          "kind": "metrology",
+          "xy": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "CVD_1",
+          "kind": "tool",
+          "xy": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "STOCKER_B",
+          "kind": "stocker",
+          "xy": [
+            5,
+            5
+          ]
+        }
+      ],
+      "openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+      "qtime_routing_multiplier": 1.098,
+      "route_congestion_index": 0.28,
+      "route_cost": 8.516,
+      "route_delay_min": 16.997936,
+      "route_segments": [
+        {
+          "cost": 3.28,
+          "delay_min": 6.54688,
+          "from": "STOCKER_A",
+          "from_xy": [
+            0,
+            0
+          ],
+          "segment_id": "R01",
+          "to": "ETCH_1",
+          "to_xy": [
+            2,
+            1
+          ]
+        },
+        {
+          "cost": 2.56,
+          "delay_min": 5.10976,
+          "from": "ETCH_1",
+          "from_xy": [
+            2,
+            1
+          ],
+          "segment_id": "R02",
+          "to": "METRO_1",
+          "to_xy": [
+            4,
+            1
+          ]
+        },
+        {
+          "cost": 2.676,
+          "delay_min": 5.341296,
+          "from": "METRO_1",
+          "from_xy": [
+            4,
+            1
+          ],
+          "segment_id": "R03",
+          "to": "STOCKER_B",
+          "to_xy": [
+            5,
+            5
+          ]
+        }
+      ],
+      "selected_route": [
+        "STOCKER_A",
+        "ETCH_1",
+        "METRO_1",
+        "STOCKER_B"
+      ]
+    }
+  },
+  "constraints": {
+    "max_metrology_delay_min": 120,
+    "real_maintenance_approval_allowed": false
+  },
+  "cross_twin_coupling": [
+    {
+      "from": "circuit.proxy_design_pass",
+      "to": "supervisor.signoff_boundary",
+      "value": false
+    },
+    {
+      "from": "factory.route_congestion",
+      "to": "fab.qtime_risk",
+      "value": 1.098
+    }
+  ],
+  "engine_provenance": [
+    {
+      "canonical_parent": "S04",
+      "code_sha256": "d8776f86b04058f4f3a956279d190ec0fc17c84965b0113f80450079047584f0",
+      "command": "python -B -m twin_core.scenario_runner --engine circuit_physical_proxy_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "circuit_physical_proxy_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "39460b32ad1e00138f2702f48e745be9b67767f9ee7211c2d3083fdbdcfdcee8",
+      "metric_lineage_path": "outputs/metric_lineage/circuit_physical_proxy_twin-V022_S04-39460b32ad.json",
+      "metric_lineage_sha256": "88fc8d70a80a17de0d7156dcb0c2a210242a11e270462cae6d8f2760eb287a05",
+      "parsed_output_path": "outputs/engine_parsed/circuit_physical_proxy_twin-V022_S04-39460b32ad.json",
+      "parsed_output_sha256": "66ed6a0c41654f4efa6c930ba934a8994866282a6f70202d9f6e923ebaf5a795",
+      "raw_output_path": "outputs/engine_raw/circuit_physical_proxy_twin-V022_S04-39460b32ad.json",
+      "raw_output_sha256": "44865e8ebc7830428a1fd3c192f272e3d7dd0e87c47b733c8326c3addf3db879",
+      "relative_cwd": ".",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad",
+      "scenario_family": "S04",
+      "scenario_id": "V022_S04",
+      "seed": 1425,
+      "status": "REAL_INTERNAL_RUN"
+    },
+    {
+      "canonical_parent": "S04",
+      "code_sha256": "99032b3848e94aa1863529c91620494ab283cabe8dccb89a299ff54d72a3043b",
+      "command": "python -B -m twin_core.scenario_runner --engine fab_operation_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "fab_operation_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "675441b5c4acb96487a9df5e7fb2865094747d992b576b2c705b2bb43fc72c67",
+      "metric_lineage_path": "outputs/metric_lineage/fab_operation_twin-V022_S04-675441b5c4.json",
+      "metric_lineage_sha256": "72ded9cbeb490871c6dd9aa17859cb68f349cc3a0c52e9d03001e8ad97a86913",
+      "parsed_output_path": "outputs/engine_parsed/fab_operation_twin-V022_S04-675441b5c4.json",
+      "parsed_output_sha256": "29a068b49f8cbef637f9616ebe015be6af163704764d517b2eee94e751fed051",
+      "raw_output_path": "outputs/engine_raw/fab_operation_twin-V022_S04-675441b5c4.json",
+      "raw_output_sha256": "7711455b4ea02b6d60bbbe404c8ea39ea09f9044e0e445a0b867c081f223ab59",
+      "relative_cwd": ".",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4",
+      "scenario_family": "S04",
+      "scenario_id": "V022_S04",
+      "seed": 1425,
+      "status": "REAL_INTERNAL_RUN"
+    },
+    {
+      "canonical_parent": "S04",
+      "code_sha256": "47b664b354ec1d0425aaadf5e087de8c9d254148c4a62e0b425ce9f0d9acbee1",
+      "command": "python -B -m twin_core.scenario_runner --engine factory_scene_routing_twin",
+      "deterministic_end": "2026-06-22T00:00:00Z",
+      "deterministic_start": "2026-06-22T00:00:00Z",
+      "engine_name": "factory_scene_routing_twin",
+      "engine_version": "v5.2-public-model",
+      "environment": "local-stdlib",
+      "exit_status": 0,
+      "input_sha256": "03f19490f33fb696cb375a55d518332d24f308b4845a2ccfdff1407a4783a073",
+      "metric_lineage_path": "outputs/metric_lineage/factory_scene_routing_twin-V022_S04-03f19490f3.json",
+      "metric_lineage_sha256": "f2b5c4f1f68752e9304ab4b8f38abe023f42232aab593f08fbd029129714ae76",
+      "parsed_output_path": "outputs/engine_parsed/factory_scene_routing_twin-V022_S04-03f19490f3.json",
+      "parsed_output_sha256": "7eeaef3e905d8b9fa2319c1ecd706e112a83e99314c2bba921ca39b4e8eb6c18",
+      "raw_output_path": "outputs/engine_raw/factory_scene_routing_twin-V022_S04-03f19490f3.json",
+      "raw_output_sha256": "3976efb9bf5a4c370c4181b55fe4f56eaa369eeae9a6bcc61deb2bdf4c75e942",
+      "relative_cwd": ".",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3",
+      "scenario_family": "S04",
+      "scenario_id": "V022_S04",
+      "seed": 1425,
+      "status": "REAL_INTERNAL_RUN"
+    }
+  ],
+  "engine_run_ids": [
+    "circuit_physical_proxy_twin-V022_S04-39460b32ad",
+    "fab_operation_twin-V022_S04-675441b5c4",
+    "factory_scene_routing_twin-V022_S04-03f19490f3"
+  ],
+  "input_hash": "23817f925b98991373658ef5b826f5cbb139ae66cb2d1dd6d890d7d802c75b04",
+  "metric_lineage": {
+    "circuit_physical.charge_share_delta_v_mv": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.external_report_word": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.proxy_design_pass": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.proxy_execution_pass": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.real_signoff_claim_allowed": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.retention_ms": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.sense_margin_mv": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.sense_margin_p05_mv": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.tns_ns": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "circuit_physical.wns_ns": {
+      "formula": "computed by charge-sharing/timing proxy public model",
+      "run_id": "circuit_physical_proxy_twin-V022_S04-39460b32ad"
+    },
+    "fab_operation.avg_defect_delta_pct": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.local_dispatch_score": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.lot_a_max_qtime_min": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.lots_processed": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.metrology_delay_min": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.observability_risk_index": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.qtime_risk_index": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.tail_risk_index": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.throughput_delta_pct": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "fab_operation.tool_utilization": {
+      "formula": "computed by deterministic fab event model",
+      "run_id": "fab_operation_twin-V022_S04-675441b5c4"
+    },
+    "factory_scene.edge_count": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    },
+    "factory_scene.node_count": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    },
+    "factory_scene.openusd_like_export_path": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    },
+    "factory_scene.qtime_routing_multiplier": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    },
+    "factory_scene.route_congestion_index": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    },
+    "factory_scene.route_cost": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    },
+    "factory_scene.route_delay_min": {
+      "formula": "computed by factory scene graph routing model",
+      "run_id": "factory_scene_routing_twin-V022_S04-03f19490f3"
+    }
+  },
+  "packet_sha256": "d60bd8c22744a55bcc940d9e23b37879d86cefaa2f1af369b4775aeec02ef62a",
+  "public_tool_receipts": [],
+  "question": "Are sensor/tool logs and metrology data reliable and timely enough for AI to judge physical state?",
+  "scenario_family": "S04",
+  "scenario_id": "V022_S04",
+  "schema_version": "hynix-v5-evidence-packet-1",
+  "title": "Tool-Chamber Observability / Metrology Lag",
+  "twin_scope": [
+    "fab_operation",
+    "circuit_physical",
+    "factory_scene"
+  ],
+  "variant_id": "V022_S04",
+  "visible_metrics": {
+    "circuit_physical.charge_share_delta_v_mv": 103.448276,
+    "circuit_physical.external_report_word": "PUBLIC_PROXY_REPORT",
+    "circuit_physical.proxy_design_pass": true,
+    "circuit_physical.proxy_execution_pass": true,
+    "circuit_physical.real_signoff_claim_allowed": false,
+    "circuit_physical.retention_ms": 256.0,
+    "circuit_physical.sense_margin_mv": 48.448276,
+    "circuit_physical.sense_margin_p05_mv": 44.668276,
+    "circuit_physical.tns_ns": 0,
+    "circuit_physical.wns_ns": 0.04,
+    "fab_operation.avg_defect_delta_pct": 0.0,
+    "fab_operation.local_dispatch_score": 0.405,
+    "fab_operation.lot_a_max_qtime_min": 399.82,
+    "fab_operation.lots_processed": 16,
+    "fab_operation.metrology_delay_min": 144.48,
+    "fab_operation.observability_risk_index": 0.409,
+    "fab_operation.qtime_risk_index": 1.9182,
+    "fab_operation.tail_risk_index": 0.011,
+    "fab_operation.throughput_delta_pct": 0.0,
+    "fab_operation.tool_utilization": 0.24683,
+    "factory_scene.edge_count": 5,
+    "factory_scene.node_count": 5,
+    "factory_scene.openusd_like_export_path": "outputs/factory_scene/openusd_like_scene.usda",
+    "factory_scene.qtime_routing_multiplier": 1.098,
+    "factory_scene.route_congestion_index": 0.28,
+    "factory_scene.route_cost": 8.516,
+    "factory_scene.route_delay_min": 16.997936
+  }
+}

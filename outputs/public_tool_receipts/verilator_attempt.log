@@ -1,0 +1,4 @@
+tool=verilator
+command=verilator --lint-only public_tool_runs/rtl/rtl/hbm_policy_controller.v
+status=EXPLAINED_UNAVAILABLE
+reason=verilator executable unavailable

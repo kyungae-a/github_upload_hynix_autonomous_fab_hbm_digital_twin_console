@@ -1,0 +1,9 @@
+{
+  "canonical_parent": "S06",
+  "recommended_supervisor_action": "REQUIRES_REAL_DOMAIN_SIGNOFF",
+  "scenario_family": "S06",
+  "scenario_id": "S06",
+  "schema_version": "hynix-v5-meta-judge-1",
+  "visible_logic_status": "VISIBLE_LOGIC_INCOMPLETE",
+  "visible_only": true
+}

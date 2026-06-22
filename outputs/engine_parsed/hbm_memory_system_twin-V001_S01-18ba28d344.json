@@ -1,0 +1,91 @@
+{
+  "bank_conflict_rate": 0.374024,
+  "display_metrics": {
+    "fcfs_bandwidth_GBps": {
+      "derivation": "GB/s = Gbps / 8",
+      "source_metric_path": "raw_metrics.fcfs_bandwidth_gbps",
+      "value": 2092.922453
+    },
+    "frfcfs_bandwidth_GBps": {
+      "derivation": "GB/s = Gbps / 8",
+      "source_metric_path": "raw_metrics.frfcfs_bandwidth_gbps",
+      "value": 2301.887867
+    },
+    "sustained_bandwidth_GBps": {
+      "derivation": "GB/s = Gbps / 8",
+      "source_metric_path": "raw_metrics.sustained_bandwidth_gbps",
+      "value": 2270.129535
+    },
+    "theoretical_bandwidth_GBps": {
+      "derivation": "GB/s = Gbps / 8",
+      "source_metric_path": "raw_metrics.theoretical_bandwidth_gbps",
+      "value": 3411.2
+    }
+  },
+  "domain": "memory_system",
+  "fcfs_bandwidth_gbps": 16743.379622,
+  "frfcfs_bandwidth_gbps": 18415.102938,
+  "latency_mean_ns": 67.323107,
+  "latency_p95_ns": 74.323107,
+  "policy_comparison": [
+    {
+      "bank_conflict_rate": 0.374024,
+      "bank_group_conflict_rate": 0.15709,
+      "display_bandwidth_GBps": 2092.922453,
+      "hard_constraint_result": "PASS",
+      "p99_latency_ns": 78.315299,
+      "policy_id": "FCFS",
+      "raw_bandwidth_gbps": 16743.379622,
+      "recommendation_reason": "baseline fairness, lower scheduler complexity",
+      "refresh_overhead_pct": 2.120312,
+      "score": 16242.385556,
+      "thermal_pressure": 0.009934
+    },
+    {
+      "bank_conflict_rate": 0.321661,
+      "bank_group_conflict_rate": 0.134649,
+      "display_bandwidth_GBps": 2301.887867,
+      "hard_constraint_result": "PASS",
+      "p99_latency_ns": 80.185419,
+      "policy_id": "FR-FCFS",
+      "raw_bandwidth_gbps": 18415.102938,
+      "recommendation_reason": "higher effective bandwidth with bounded thermal pressure",
+      "refresh_overhead_pct": 2.120312,
+      "score": 18130.968916,
+      "thermal_pressure": 0.013797
+    },
+    {
+      "bank_conflict_rate": 0.336622,
+      "bank_group_conflict_rate": 0.127168,
+      "display_bandwidth_GBps": 2270.129535,
+      "hard_constraint_result": "PASS",
+      "p99_latency_ns": 79.063347,
+      "policy_id": "THERMAL_AWARE_FRFCFS",
+      "raw_bandwidth_gbps": 18161.036283,
+      "recommendation_reason": "recommended when reviewer prioritizes sustained bandwidth and margin",
+      "refresh_overhead_pct": 2.520313,
+      "score": 18161.036283,
+      "thermal_pressure": 0.0
+    }
+  ],
+  "ppa_candidate_a_score": 19888.311173,
+  "ppa_candidate_b_score": 18046.800879,
+  "raw_metrics": {
+    "fcfs_bandwidth_gbps": 16743.379622,
+    "frfcfs_bandwidth_gbps": 18415.102938,
+    "sustained_bandwidth_gbps": 18161.036283,
+    "theoretical_bandwidth_gbps": 27289.6
+  },
+  "recommended_policy": "THERMAL_AWARE_FRFCFS",
+  "refresh_loss_pct": 2.120312,
+  "row_hit_rate": 0.3444,
+  "sustained_bandwidth_gbps": 18161.036283,
+  "theoretical_bandwidth_gbps": 27289.6,
+  "thermal_pressure_index": 0.013797,
+  "turnaround_loss_pct": 5.392192,
+  "unit_notes": {
+    "conversion": "GB/s = Gbps / 8",
+    "display_suffix": "_GBps",
+    "raw_suffix": "_gbps"
+  }
+}
